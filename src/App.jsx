@@ -1346,7 +1346,7 @@ export default function App() {
               </div>
               <div className="footer-copyright">
                 <span>&copy; {new Date().getFullYear()} The Visual Room. All Rights Reserved.</span>
-                <span className="credit">Built by Antigravity Studio</span>
+                <span className="credit">The Visual Room</span>
               </div>
             </div>
           </footer>
