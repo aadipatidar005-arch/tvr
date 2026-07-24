@@ -30,7 +30,7 @@ const serviceDetails = {
       "Quarterly roadmap and measurement plan"
     ],
     specs: ["Messaging Framework", "Channel Strategy", "KPI Architecture"],
-    images: ["/creative_strategy.jpg"],
+    images: ["/creative_strategy.webp"],
     ctaLabel: "Build Your Content Roadmap"
   },
   "02": {
@@ -43,7 +43,7 @@ const serviceDetails = {
       "Brand guidelines and reusable templates"
     ],
     specs: ["Logo System", "Design Tokens", "Brand Guidelines"],
-    images: ["/brand_identity.jpg"],
+    images: ["/brand_identity.webp"],
     ctaLabel: "Build a Scalable Brand System"
   },
   "03": {
@@ -56,7 +56,7 @@ const serviceDetails = {
       "Hero edits, cutdowns, captions, and platform versions"
     ],
     specs: ["4K Production", "Multi-format Delivery", "Licensed Audio"],
-    images: ["/video_production.jpg"],
+    images: ["/video_production.webp"],
     ctaLabel: "Plan Your Next Production"
   },
   "04": {
@@ -69,7 +69,7 @@ const serviceDetails = {
       "Organized, usage-ready digital asset library"
     ],
     specs: ["High-resolution RAW", "Web & Print Exports", "Usage-ready Metadata"],
-    images: ["/photography.jpg"],
+    images: ["/photography.webp"],
     ctaLabel: "Create Your Brand Image Library"
   },
   "05": {
@@ -82,7 +82,7 @@ const serviceDetails = {
       "Monthly reporting, insights, and creative optimization"
     ],
     specs: ["Content Calendar", "Platform-native Formats", "Monthly Reporting"],
-    images: ["/social_media.jpg"],
+    images: ["/social_media.webp"],
     ctaLabel: "Build a Stronger Social System"
   },
   "06": {
@@ -121,7 +121,7 @@ const serviceDetails = {
       "Post-launch review and creative performance learnings"
     ],
     specs: ["Multi-channel Toolkit", "Adaptation Matrix", "Campaign Governance"],
-    images: ["/visual_campaigns.jpg"],
+    images: ["/visual_campaigns.webp"],
     ctaLabel: "Build Your Next Campaign"
   }
 };
@@ -652,6 +652,7 @@ export default function App() {
                     src={serviceDetails[selectedService].images[0]} 
                     alt={serviceDetails[selectedService].title} 
                     className="modal-slide-img active"
+                    loading="lazy"
                   />
                 )}
               </div>
@@ -726,9 +727,10 @@ export default function App() {
             <div className="logo-assemble-container">
               <div className="logo-svg-pieces">
                 <img 
-                  src="/Tvr logo.png" 
+                  src="/Tvr logo.webp" 
                   alt="TVR Logo" 
                   className="preloader-logo" 
+                  fetchpriority="high"
                 />
                 <div className="streak-overlay"></div>
               </div>
@@ -754,7 +756,7 @@ export default function App() {
             onMouseMove={handleMagneticMouseMove}
             onClick={handleElementClick}
           >
-            <img src="/Tvr logo.png" alt="TVR Logo" className="logo-img" />
+            <img src="/Tvr logo.webp" alt="TVR Logo" className="logo-img" fetchpriority="high" />
           </a>
           
           <div className="nav-menu">
@@ -808,7 +810,7 @@ export default function App() {
           <section id="hero" className="hero-section">
             {/* Background Watermark TVR Logo */}
             <div className="hero-backdrop-watermark">
-              <img src="/Tvr logo.png" alt="TVR Watermark" className="hero-watermark-img" />
+              <img src="/Tvr logo.webp" alt="TVR Watermark" className="hero-watermark-img" loading="lazy" />
             </div>
 
             {/* Top Brand Badge */}
@@ -819,7 +821,7 @@ export default function App() {
               onMouseMove={handleMagneticMouseMove}
               onClick={handleElementClick}
             >
-              <img src="/Tvr logo.png" alt="TVR Studio Logo" className="hero-brand-logo-img" />
+              <img src="/Tvr logo.webp" alt="TVR Studio Logo" className="hero-brand-logo-img" fetchpriority="high" />
               <span className="hero-brand-badge-tag">TVR // THE VISUAL ROOM STUDIO</span>
             </div>
 
@@ -897,7 +899,7 @@ export default function App() {
                   
                   {/* TVR Centerpiece Logo */}
                   <div className="hero-center-logo-container">
-                    <img src="/Tvr logo.png" alt="TVR Centerpiece Logo" className="hero-center-logo-img" />
+                    <img src="/Tvr logo.webp" alt="TVR Centerpiece Logo" className="hero-center-logo-img" fetchpriority="high" />
                   </div>
 
                   <div className="rec-dot-container">
@@ -1342,7 +1344,7 @@ export default function App() {
 
             <div className="footer-bottom">
               <div className="footer-massive-logo">
-                <img src="/Tvr logo.png" alt="TVR Massive Logo" className="footer-logo-img" />
+                <img src="/Tvr logo.webp" alt="TVR Massive Logo" className="footer-logo-img" loading="lazy" />
               </div>
               <div className="footer-copyright">
                 <span>&copy; {new Date().getFullYear()} The Visual Room. All Rights Reserved.</span>
