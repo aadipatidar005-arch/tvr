@@ -1772,7 +1772,7 @@ body.hover-custom-text .cursor-text {
 
 .footer-mid {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 50px;
     max-width: 1200px;
     margin: 80px auto;

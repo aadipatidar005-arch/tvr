@@ -1300,11 +1300,6 @@ export default function App() {
             </div>
 
             <div className="footer-mid">
-              <div className="footer-info-col">
-                <h3>STUDIO ADDRESS</h3>
-                <p>The Visual Room Ltd.<br />Suite 404, Creative Quarter<br />London, EC1A 4JQ</p>
-              </div>
-              
               <div className="footer-links-col">
                 <h3>NAVIGATION</h3>
                 {['services', 'work', 'about', 'process'].map(link => (
