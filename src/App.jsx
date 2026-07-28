@@ -1301,7 +1301,6 @@ export default function App() {
 
             <div className="footer-mid">
               <div className="footer-links-col">
-                <h3>NAVIGATION</h3>
                 {['services', 'work', 'about', 'process'].map(link => (
                   <a 
                     key={link} 
