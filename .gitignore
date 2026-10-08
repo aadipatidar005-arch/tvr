@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Scratch and temp files
+temp-edge/
+test.json
+receiver.cjs
+receiver.js
+build_app.ps1
+push_git.bat
+.vercel/
