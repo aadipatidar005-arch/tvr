@@ -764,3 +764,146 @@ body {
 }
 .animate-ping { animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite; }
 
+/* ========================================================================= */
+/* TVR 10s CINEMATIC INTRO BANNER                                            */
+/* ========================================================================= */
+.tvr-cinematic-banner {
+  --ink: #29191D;
+  --or: #FF4B16;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1540 / 198;
+  container-type: size;
+  background: var(--ink);
+  border-radius: 0.875rem;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+@media (max-width: 640px) {
+  .tvr-cinematic-banner {
+    aspect-ratio: 1540 / 280;
+  }
+}
+
+.tvr-cin-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.tvr-cin-bokeh {
+  opacity: 0;
+  background:
+    radial-gradient(circle at 18% 60%, rgba(255, 120, 50, 0.55) 0 7cqh, transparent 14cqh),
+    radial-gradient(circle at 42% 30%, rgba(255, 75, 22, 0.4) 0 9cqh, transparent 18cqh),
+    radial-gradient(circle at 63% 75%, rgba(255, 190, 130, 0.35) 0 6cqh, transparent 13cqh),
+    radial-gradient(circle at 85% 35%, rgba(255, 90, 40, 0.45) 0 10cqh, transparent 20cqh),
+    radial-gradient(circle at 95% 80%, rgba(255, 220, 170, 0.25) 0 5cqh, transparent 11cqh);
+}
+
+.tvr-cin-leak {
+  opacity: 0;
+  width: 70%;
+  left: -35%;
+  background: linear-gradient(100deg, transparent, rgba(255, 75, 22, 0.75) 35%, rgba(255, 225, 185, 0.85) 60%, transparent);
+  mix-blend-mode: screen;
+  filter: blur(2cqh);
+}
+
+.tvr-cin-streak {
+  left: -30%;
+  width: 30%;
+  background: linear-gradient(90deg, transparent, rgba(255, 75, 22, 0) 10%, rgba(255, 110, 50, 0.9) 70%, #ffd2b0 98%, transparent);
+  height: 5%;
+  top: 47.5%;
+  filter: blur(0.6cqh);
+  box-shadow: 0 0 5cqh rgba(255, 75, 22, 0.6);
+}
+
+.tvr-cin-refl {
+  width: 14%;
+  left: -20%;
+  opacity: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 235, 210, 0.35), transparent);
+  transform: skewX(-24deg);
+  filter: blur(0.8cqh);
+}
+
+.tvr-cin-grain {
+  inset: -10%;
+  opacity: 0.12;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>");
+}
+
+.tvr-cin-vig {
+  background: radial-gradient(ellipse at center, transparent 55%, rgba(0, 0, 0, 0.35));
+}
+
+.tvr-cin-sc {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 5cqw;
+  color: #ffffff;
+  font-family: var(--font-display);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 0.85;
+  white-space: nowrap;
+  text-transform: uppercase;
+  clip-path: inset(0 100% 0 0);
+  will-change: clip-path, transform;
+}
+
+.tvr-cin-t1 {
+  font-size: 62cqh;
+}
+
+.tvr-cin-t4 {
+  gap: 3cqw;
+}
+
+.tvr-cin-small {
+  font-size: 24cqh;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+}
+
+.tvr-cin-small span {
+  display: block;
+}
+
+.tvr-cin-big {
+  font-size: 104cqh;
+  letter-spacing: -0.06em;
+  line-height: 0.8;
+  padding-top: 2cqh;
+}
+
+.tvr-cin-t5 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 5cqh;
+}
+
+.tvr-cin-name {
+  font-size: 48cqh;
+}
+
+.tvr-cin-tag {
+  font-size: 13cqh;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+  color: var(--or);
+  font-family: var(--font-mono);
+}
+
+.tvr-cin-o {
+  color: var(--or);
+}
+
+

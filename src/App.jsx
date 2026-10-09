@@ -674,6 +674,160 @@ function InteractiveServiceCard({ srv, index, onSelect, onCursorEnter, onCursorL
 }
 
 // ==========================================
+// TVR 10s CINEMATIC INTRO BANNER COMPONENT
+// ==========================================
+function TVRCinematicIntroBanner() {
+  const containerRef = useRef(null);
+  const stRef = useRef(null);
+  const bkRef = useRef(null);
+  const lkRef = useRef(null);
+  const r1Ref = useRef(null);
+  const r2Ref = useRef(null);
+  const grRef = useRef(null);
+  const wmRef = useRef(null);
+  const iddRef = useRef(null);
+  const s1Ref = useRef(null);
+  const s2Ref = useRef(null);
+  const s3Ref = useRef(null);
+  const s4Ref = useRef(null);
+  const s5Ref = useRef(null);
+
+  useEffect(() => {
+    const D = 10;
+    const cl = (x) => (x < 0 ? 0 : x > 1 ? 1 : x);
+    const eo = (x) => 1 - Math.pow(1 - x, 4);
+    const eio = (x) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+    const win = (t, a, b, f) => cl((t - a) / f) * cl((b - t) / f);
+
+    const sc = [s1Ref.current, s2Ref.current, s3Ref.current, s4Ref.current, s5Ref.current];
+    const T = [
+      [0.25, 1.6],
+      [1.5, 3.3],
+      [3.2, 5.3],
+      [5.2, 7.6],
+      [7.5, 9.2]
+    ];
+
+    function show(el, t, a, b) {
+      if (!el) return;
+      const p = eo(cl((t - (a - 0.1)) / 0.6));
+      const q = eio(cl((t - (b - 0.4)) / 0.4));
+      el.style.clipPath = `inset(0 ${(1 - p) * 100}% 0 ${q * 100}%)`;
+      el.style.transform = `translateX(${(1 - p) * -2.5 + q * 2}cqw)`;
+    }
+
+    function streak(t, a, b) {
+      const p = cl((t - a) / (b - a));
+      return p > 0 && p < 1 ? eio(p) : -1;
+    }
+
+    function frame(t) {
+      for (let i = 0; i < 5; i++) {
+        show(sc[i], t, T[i][0], T[i][1]);
+      }
+
+      // streak: opening 0–1.3 and closing 9.2–10 (identical path => seamless loop)
+      let s = streak(t, 0, 1.3);
+      if (s < 0) s = streak(t, 9.2, 10);
+      if (stRef.current) {
+        if (s < 0) {
+          stRef.current.style.opacity = '0';
+        } else {
+          stRef.current.style.opacity = '1';
+          stRef.current.style.transform = `translateX(${s * 430}%)`;
+        }
+      }
+
+      // bokeh: warm out-of-focus studio lights behind scenes 2–3
+      const bo = win(t, 1.5, 5.4, 0.7) * 0.9;
+      if (bkRef.current) {
+        bkRef.current.style.opacity = String(bo);
+        bkRef.current.style.transform = `translateX(${-4 + t * 1.8}cqw) scale(${1.05 + Math.sin(t * 1.3) * 0.03})`;
+        bkRef.current.style.filter = `blur(${0.8 + 1.6 * (Math.sin(t * 1.7) * 0.5 + 0.5) + (t > 3.2 ? 1.2 : 0)}cqh)`;
+      }
+
+      // light leak in the big reveal
+      const lp = cl((t - 5.2) / 2.6);
+      if (lkRef.current) {
+        lkRef.current.style.opacity = String(win(t, 5.2, 7.6, 0.5) * 0.6);
+        lkRef.current.style.transform = `translateX(${lp * 210}%)`;
+      }
+
+      // lens reflections in the craft scene
+      const rp = cl((t - 3.4) / 1.8);
+      if (r1Ref.current) {
+        r1Ref.current.style.opacity = String(win(t, 3.4, 5.2, 0.4) * 0.9);
+        r1Ref.current.style.transform = `translateX(${rp * 820}%) skewX(-24deg)`;
+      }
+
+      const rq = cl((t - 3.8) / 1.8);
+      if (r2Ref.current) {
+        r2Ref.current.style.opacity = String(win(t, 3.8, 5.4, 0.4) * 0.8);
+        r2Ref.current.style.transform = `translateX(${rq * 1500}%) skewX(-24deg)`;
+      }
+
+      // IDEAS enters slightly after WE MAKE
+      if (wmRef.current) wmRef.current.style.opacity = String(eo(cl((t - 5.2) / 0.5)));
+      if (iddRef.current) iddRef.current.style.opacity = String(eo(cl((t - 5.55) / 0.35)) * (t < 7.1 ? 1 : 1 - cl((t - 7.1) / 0.3) * 0));
+
+      // grain jitter
+      const k = Math.floor(t * 14);
+      if (grRef.current) {
+        grRef.current.style.transform = `translate(${(k * 37) % 9 - 4}%,${(k * 53) % 9 - 4}%)`;
+      }
+    }
+
+    const rm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (rm) {
+      frame(6.9);
+      return;
+    }
+
+    let animationId;
+    let t0 = null;
+    function loop(n) {
+      if (t0 === null) t0 = n;
+      frame(((n - t0) / 1000) % D);
+      animationId = requestAnimationFrame(loop);
+    }
+
+    frame(0);
+    animationId = requestAnimationFrame(loop);
+
+    return () => {
+      if (animationId) cancelAnimationFrame(animationId);
+    };
+  }, []);
+
+  return (
+    <div 
+      ref={containerRef}
+      className="tvr-cinematic-banner select-none"
+      aria-label="TVR — We think. We create. We make ideas move."
+    >
+      <div ref={bkRef} className="tvr-cin-layer tvr-cin-bokeh" />
+      <div ref={lkRef} className="tvr-cin-layer tvr-cin-leak" />
+      <div ref={r1Ref} className="tvr-cin-layer tvr-cin-refl" />
+      <div ref={r2Ref} className="tvr-cin-layer tvr-cin-refl" style={{ width: '6%' }} />
+      <div ref={s1Ref} className="tvr-cin-sc"><div className="tvr-cin-t1">WE THINK<span className="tvr-cin-o">.</span></div></div>
+      <div ref={s2Ref} className="tvr-cin-sc"><div className="tvr-cin-t1">WE CREATE<span className="tvr-cin-o">.</span></div></div>
+      <div ref={s3Ref} className="tvr-cin-sc"><div className="tvr-cin-t1">WE FRAME <span className="tvr-cin-o">STORIES</span></div></div>
+      <div ref={s4Ref} className="tvr-cin-sc tvr-cin-t4">
+        <div ref={wmRef} className="tvr-cin-small"><span>WE</span><span>MAKE</span></div>
+        <div ref={iddRef} className="tvr-cin-big">IDEAS<span className="tvr-cin-o">.</span></div>
+      </div>
+      <div ref={s5Ref} className="tvr-cin-sc tvr-cin-t5">
+        <div className="tvr-cin-name">THE VISUAL ROOM</div>
+        <div className="tvr-cin-tag">WE MAKE IDEAS MOVE.</div>
+      </div>
+      <div ref={stRef} className="tvr-cin-layer tvr-cin-streak" />
+      <div className="tvr-cin-layer tvr-cin-vig" />
+      <div ref={grRef} className="tvr-cin-layer tvr-cin-grain" />
+    </div>
+  );
+}
+
+// ==========================================
 // 6. THE TVR FOUNDER CONTENT ENGINE IMMERSIVE EXPERIENCE
 // ==========================================
 function FounderPresenceEngineExperience({ onClose, onStartProject, onCursorEnter, onCursorLeave }) {
@@ -2648,41 +2802,9 @@ export default function App() {
                   </span>
                 </div>
 
-                {/* Line 2: Giant Masked Typography with Embedded Cinematic Video */}
-                <div className="relative my-2 sm:my-4 group">
-                  <div className="relative overflow-hidden rounded-2xl bg-[#111111] border-2 border-[#111111] shadow-2xl p-4 sm:p-8 flex items-center justify-between">
-                    
-                    {/* Background Autoplay Texture */}
-                    <div className="absolute inset-0 opacity-40 mix-blend-screen overflow-hidden">
-                      <video 
-                        src="/0721.mp4" 
-                        poster="/tvr_creative_studio.webp"
-                        autoPlay 
-                        muted 
-                        loop 
-                        playsInline 
-                        className="w-full h-full object-cover scale-110"
-                      />
-                    </div>
-
-                    <div className="relative z-10">
-                      <h2 className="font-display font-black text-5xl sm:text-8xl lg:text-9xl uppercase tracking-tighter text-white leading-none">
-                        IDEAS
-                      </h2>
-                    </div>
-
-                    <div className="relative z-10 flex items-center gap-4">
-                      <button 
-                        onClick={() => setSelectedVideo({ src: '/0721.mp4', title: 'TVR Studio Showreel' })}
-                        onMouseEnter={() => onCursorEnter('media', 'PLAY')}
-                        onMouseLeave={onCursorLeave}
-                        className="h-14 w-14 sm:h-20 sm:w-20 rounded-full bg-[#FF4A0A] text-white flex items-center justify-center hover:scale-110 transition-transform shadow-2xl shrink-0"
-                      >
-                        <Play className="w-6 h-6 sm:w-8 sm:h-8 fill-current translate-x-0.5" />
-                      </button>
-                    </div>
-
-                  </div>
+                {/* Line 2: 10s Cinematic Intro Banner */}
+                <div className="relative my-2 sm:my-4 shadow-2xl border-2 border-[#111111] rounded-2xl overflow-hidden bg-[#29191D]">
+                  <TVRCinematicIntroBanner />
                 </div>
 
                 {/* Line 3 */}
