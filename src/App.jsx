@@ -2116,6 +2116,20 @@ export default function App() {
     };
   }, []);
 
+  // Clean URL hash on mount & dynamic navigation to ensure clean domain (thevisualroom.studio)
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.location.hash) {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+    const handleHashChange = () => {
+      if (typeof window !== 'undefined' && window.location.hash) {
+        window.history.replaceState(null, '', window.location.pathname + window.location.search);
+      }
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
   // Cursor Helpers
   const onCursorEnter = (variant, text = '', accent = null) => {
     setCursorVariant(variant);
@@ -2134,12 +2148,18 @@ export default function App() {
     setSelectedCaseStudy(null);
     setPresenceEngineOpen(false);
     setMenuOpen(false);
+    if (typeof window !== 'undefined' && window.location.hash) {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const openServiceDetail = (service) => {
     setSelectedPillar(service);
     setPresenceEngineOpen(false);
+    if (typeof window !== 'undefined' && window.location.hash) {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
