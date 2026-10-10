@@ -71,7 +71,7 @@ const SERVICES_DATA = [
     accentHex: '#C8FF00',
     borderHover: 'hover:border-[#C8FF00]',
     badgeBg: 'bg-[#C8FF00] text-[#111111]',
-    image: '/Brand.jpg',
+    image: '/tvr-personal-brand-visual.png',
     heroHeadline: 'TURN EXPERTISE INTO PRESENCE',
     overview: [
       "Your experience, opinions and expertise already have immense value. We shape them into a personal brand with a clear position, story and visual identity.",
@@ -126,7 +126,7 @@ const SERVICES_DATA = [
     accentHex: '#FF4F8B',
     borderHover: 'hover:border-[#FF4F8B]',
     badgeBg: 'bg-[#FF4F8B] text-white',
-    image: '/photography.webp',
+    image: '/tvr-presence-ai-visual.png',
     heroHeadline: 'ONE PERSON — AN ENTIRE CONTENT ENGINE',
     overview: [
       "Founders have years of experience, knowledge and opinions — but not the time to constantly be in front of a camera.",
@@ -177,7 +177,7 @@ const SERVICES_DATA = [
     accentHex: '#2447FF',
     borderHover: 'hover:border-[#2447FF]',
     badgeBg: 'bg-[#2447FF] text-white',
-    image: '/visual_campaigns.webp',
+    image: '/tvr-content-systems-visual.png',
     heroHeadline: 'DON’T JUST CREATE CONTENT — BUILD A SYSTEM',
     overview: [
       "Content shouldn't begin with “What should we post today?”",
@@ -228,7 +228,7 @@ const SERVICES_DATA = [
     accentHex: '#FF4A0A',
     borderHover: 'hover:border-[#FF4A0A]',
     badgeBg: 'bg-[#FF4A0A] text-white',
-    image: '/video_production.webp',
+    image: '/tvr-production-film-visual.png',
     heroHeadline: 'WHERE THE IDEA BECOMES A FRAME',
     overview: [
       "From the first shot to the final grade, TVR brings strategy, storytelling and production together to create visual work with intention.",
@@ -283,7 +283,7 @@ const TVR_SYSTEM_STEPS = [
     subtitle: 'THE SEED',
     description: 'Every project starts with a sharp, defensible insight. What does this brand actually stand for?',
     color: '#FF4A0A',
-    media: '/Brand.jpg'
+    media: '/tvr-idea-seed-visual.png'
   },
   {
     step: '02',
@@ -291,7 +291,7 @@ const TVR_SYSTEM_STEPS = [
     subtitle: 'THE MEANING',
     description: 'We craft the narrative architecture that turns product specs and founder expertise into unforgettable stories.',
     color: '#2447FF',
-    media: '/creative_strategy.webp'
+    media: '/tvr-story-visual.png'
   },
   {
     step: '03',
@@ -299,7 +299,7 @@ const TVR_SYSTEM_STEPS = [
     subtitle: 'THE LANGUAGE',
     description: 'We establish the distinct art direction, typographic hierarchy, and moodboard signature of the brand.',
     color: '#FF4F8B',
-    media: '/visual_campaigns.webp'
+    media: '/tvr-visual-visual.png'
   },
   {
     step: '04',
@@ -307,7 +307,7 @@ const TVR_SYSTEM_STEPS = [
     subtitle: 'THE CRAFT',
     description: 'From cinema lenses to lighting setups, we capture high-fidelity raw frames with deliberate intent.',
     color: '#FFC928',
-    media: '/video_production.webp'
+    media: '/tvr-production-visual.png'
   },
   {
     step: '05',
@@ -315,7 +315,7 @@ const TVR_SYSTEM_STEPS = [
     subtitle: 'THE FORMATS',
     description: 'We turn master footage into a modular library of high-impact social, campaign, and episodic cuts.',
     color: '#2447FF',
-    media: '/social_media.webp'
+    media: '/tvr-content-visual.png'
   },
   {
     step: '06',
@@ -323,7 +323,7 @@ const TVR_SYSTEM_STEPS = [
     subtitle: 'THE SCALE',
     description: 'Using AI-assisted workflows and digital twins, we build an omnipresent distribution engine.',
     color: '#C8FF00',
-    media: '/photography.webp'
+    media: '/tvr-presence-engine-visual.png'
   }
 ];
 
