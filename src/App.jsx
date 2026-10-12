@@ -3028,7 +3028,7 @@ export default function App() {
                   </span>
 
                   <p className="text-base sm:text-xl text-[#111111]/80 font-medium max-w-md leading-relaxed sm:text-right">
-                    TVR is a creative studio where strategy, storytelling and production come together to turn ideas into visual work.
+                    Your expertise deserves to be seen. TVR transforms your voice, ideas and vision into a distinctive personal brand built to grow your influence without taking over your time.
                   </p>
                 </div>
               </div>
