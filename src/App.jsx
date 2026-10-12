@@ -335,118 +335,289 @@ const FEATURED_PROJECTS = [
     id: 'kapiva',
     num: '01',
     client: 'KAPIVA',
-    title: 'AI-ASSISTED PRODUCT CONTENT',
-    category: 'PRODUCT CONTENT & MOTION',
-    servicesTag: 'STRATEGY / CREATIVE / PRODUCTION / POST',
-    mediaType: 'video',
-    mediaSrc: '/0721.mp4',
-    poster: '/tvr_creative_studio.webp',
-    accent: '#FF4A0A',
-    brief: 'Kapiva required high-volume, premium product storytelling and dynamic social motion assets highlighting modern wellness science.',
-    idea: 'Pair crisp commercial tabletop lighting and macro botanical textures with swift, modern typographic motion.',
-    approach: 'Executed studio tabletop cinematography combined with modular AI-assisted asset workflows for rapid multi-channel adaptation.',
-    deliverables: ['Tabletop Commercial Film', 'Social Motion Assets', 'Visual Framework', 'Modular Product Cuts'],
-    outcome: 'High-engagement product launch assets deployed across national digital and retail campaign touchpoints.'
-  },
-  {
-    id: 'spinny',
-    num: '02',
-    client: 'SPINNY',
-    title: 'DRIVING VISUAL CULTURE',
-    category: 'BRAND CONTENT & CAMPAIGN',
-    servicesTag: 'STRATEGY / PRODUCTION / CONTENT',
+    title: 'AI-POWERED PRODUCT ADVERTISING',
+    category: 'AI CONCEPTUALIZATION / VISUAL STORYTELLING / AD PRODUCTION',
+    servicesTag: 'AI CONCEPTUALIZATION / VISUAL STORYTELLING / AD PRODUCTION',
+    ctaText: 'VIEW CASE STUDY ↗',
+    description: 'We transformed Kapiva’s product stories into cinematic AI-powered advertisements, combining imaginative visuals, premium product presentation and motion-led storytelling to create distinctive brand content.',
     mediaType: 'image',
-    mediaSrc: '/visual_campaigns.webp',
-    accent: '#2447FF',
-    brief: 'Spinny needed high-velocity, authentic car culture storytelling that resonated with modern car buyers.',
-    idea: 'Connect the emotional milestone of car ownership with crisp, energetic urban documentation.',
-    approach: 'Executed street-level documentary filmmaking, authentic human perspectives, and modular social cuts.',
-    deliverables: ['Campaign Visuals', 'Digital Commercial Series', 'Social Cutdowns', 'Editorial Stills'],
-    outcome: 'High-retention storytelling formats deployed across national social and performance campaigns.'
+    mediaSrc: '/tvr-x-kapiva-thumbnail.png',
+    thumbnail: '/tvr-x-kapiva-thumbnail.png',
+    videoSrc: '/kapiva-horizontal.mp4',
+    poster: '/tvr-x-kapiva-thumbnail.png',
+    accent: '#FF4A0A',
+    headline: 'PRODUCT STORIES, REIMAGINED WITH AI.',
+    heroSub: 'KAPIVA × TVR',
+    brief: 'Kapiva required high-volume, premium product storytelling and dynamic social motion assets highlighting modern wellness science, needing a distinctive creative approach that moved beyond conventional tabletop product shots into imaginative, cinematic brand films.',
+    idea: 'Pair crisp commercial tabletop lighting and macro botanical textures with generative AI conceptualization and swift, modern typographic motion—visualizing the living essence of natural ingredients.',
+    approach: 'Executed studio tabletop cinematography combined with modular AI-assisted asset workflows for rapid multi-channel adaptation.',
+    deliverables: ['AI-Powered Commercial Cutdowns', 'Hero Product Visuals', 'Modular Social Motion Toolkit', 'Visual Architecture Framework'],
+    outcome: 'A cohesive suite of cinematic, AI-powered product films deployed across brand campaigns and digital touchpoints—establishing a modern, visually striking benchmark for contemporary wellness advertising.'
   },
   {
     id: 'sourcebae',
-    num: '03',
+    num: '02',
     client: 'SOURCEBAE',
-    title: 'DISTRIBUTED TALENT IN MOTION',
-    category: 'BRAND CONTENT & MOTION GRAPHICS',
-    servicesTag: 'STRATEGY / MOTION / CAMPAIGN',
-    mediaType: 'video',
-    mediaSrc: '/motion_graphic.mp4',
-    poster: '/creative_strategy.webp',
+    title: 'AI-POWERED FOUNDER PERSONAL BRANDING',
+    category: 'PERSONAL BRANDING / DIGITAL AVATAR / AI VIDEO PRODUCTION',
+    servicesTag: 'PERSONAL BRANDING / DIGITAL AVATAR / AI VIDEO PRODUCTION',
+    ctaText: 'VIEW CASE STUDY ↗',
+    description: 'We built an AI-assisted personal branding workflow for Sourcebae, combining digital avatar technology, voice cloning and video production to help scale founder-led communication without relying on a traditional shoot for every video.',
+    mediaType: 'image',
+    mediaSrc: '/tvr-x-sourcebae-thumbnail.png',
+    thumbnail: '/tvr-x-sourcebae-thumbnail.png',
+    videoSrc: '/sourcebae-horizontal.mp4',
+    poster: '/tvr-x-sourcebae-thumbnail.png',
     accent: '#FF4F8B',
-    brief: 'SourceBae needed to communicate their elite distributed engineering ecosystem with energetic tech-forward motion design.',
-    idea: 'Turn abstract technical architectures into fluid, kinetic visual metaphors.',
-    approach: 'Engineered custom kinetic typography systems, dynamic 3D elements, and rhythmic sound design.',
-    deliverables: ['Brand Explainer Film', 'Kinetic Typography Toolkit', 'Social Motion Ads', 'Platform Hero Visuals'],
-    outcome: 'Clear B2B positioning that elevated brand perception among enterprise founders and hiring teams.'
+    headline: 'ONE VOICE. A SCALABLE DIGITAL PRESENCE.',
+    heroSub: 'SOURCEBAE × TVR',
+    brief: "Sourcebae's leadership wanted to scale their founder-led communication and presence across digital channels, but frequent physical studio shoots and busy operational schedules created consistent bottlenecks. They needed a sustainable, high-fidelity system to turn ideas into video content rapidly.",
+    idea: 'Create an AI-assisted personal branding pipeline centered on the founder. By capturing an accurate digital avatar and cloning the founder’s natural speaking voice, we established a production-ready model that allows agile script deployment into finished video while keeping the founder in complete editorial control.',
+    approach: 'Engineered high-resolution avatar capture, custom neural voice modeling, structured thought leadership scripts, and a hybrid video finishing workflow.',
+    deliverables: ['Digital Avatar Calibration', 'Voice Cloning Profile', 'Founder Content Architecture', 'Hybrid Video Production Pipeline'],
+    outcome: 'A repeatable, AI-assisted video production workflow that enables Sourcebae to maintain active founder presence and thought leadership without physical studio downtime—transforming founder insights into polished video assets with rapid turnaround.'
+  },
+  {
+    id: 'spinny',
+    num: '03',
+    client: 'SPINNY × PATEL CAR DECOR',
+    title: 'BEHIND THE PARTNERSHIP',
+    category: 'DOCUMENTARY / BRAND STORYTELLING / FILM PRODUCTION',
+    servicesTag: 'DOCUMENTARY / BRAND STORYTELLING / FILM PRODUCTION',
+    ctaText: 'VIEW CASE STUDY ↗',
+    description: 'A documentary exploring the partnership between Spinny and Patel Car Decor, bringing the people, stories and real-world experiences behind the collaboration to the screen.',
+    mediaType: 'image',
+    mediaSrc: '/tvr-x-spinny-thumbnail.png',
+    thumbnail: '/tvr-x-spinny-thumbnail.png',
+    videoSrc: '/spinny-horizontal.mp4',
+    poster: '/tvr-x-spinny-thumbnail.png',
+    accent: '#2447FF',
+    headline: 'EVERY PARTNERSHIP HAS A STORY.',
+    heroSub: 'SPINNY × PATEL CAR DECOR',
+    brief: 'Spinny wanted to capture the genuine human story and operational depth behind their partnership with Patel Car Decor—moving away from traditional corporate case studies or promotional advertising into an authentic, documentary-first film that documents trust, craftsmanship, and shared values.',
+    idea: 'Ground the narrative in real people and honest conversations. Instead of scripted marketing claims, let the workshop floor, the craft of automotive detailing, and the multi-generational ethos of Patel Car Decor illustrate why this collaboration matters.',
+    approach: 'On-ground documentary cinematography capturing unscripted workshop interactions, human-led interviews, and tactile automotive textures.',
+    deliverables: ['Documentary Film Master', 'Behind-The-Scenes Film Cuts', 'Workshop Production Stills', 'Partnership Narrative Story'],
+    outcome: 'A character-driven brand documentary that deepens brand trust and honors real-world collaboration—providing Spinny and Patel Car Decor with an authentic film asset that resonates through genuine human connection.'
   },
   {
     id: 'vaayu',
     num: '04',
     client: 'VAAYU PRODUCTIONS',
-    title: 'NARRATIVE IN MOTION',
-    category: 'COMMERCIAL PRODUCTION & VFX',
-    servicesTag: 'FILM / VFX / POST PRODUCTION',
+    title: 'CAMPUS CULTURE, CAPTURED.',
+    category: 'EVENT FILMMAKING / CINEMATOGRAPHY / REEL PRODUCTION',
+    servicesTag: 'EVENT FILMMAKING / CINEMATOGRAPHY / REEL PRODUCTION',
+    ctaText: 'VIEW CASE STUDY ↗',
+    description: 'We captured college events and transformed the energy, performances and behind-the-scenes moments into cinematic films and engaging social reels that brought campus experiences to life.',
     mediaType: 'image',
-    mediaSrc: '/video_production.webp',
+    mediaSrc: '/tvr-x-vaayu-thumbnail.png',
+    thumbnail: '/tvr-x-vaayu-thumbnail.png',
+    videoSrc: '/vaayu-horizontal.mp4',
+    poster: '/tvr-x-vaayu-thumbnail.png',
     accent: '#FFC928',
-    brief: 'Vaayu Productions required a technical directorship and post-production partner for commercial narrative sequences.',
-    idea: 'Combine precision cinematic camera movement with invisible VFX integration and rich color science.',
-    approach: 'Pre-visualized on-set camera tracking, lighting rigs, and dedicated color finishing pipelines.',
-    deliverables: ['Commercial Directorship', 'VFX Compositing', 'Color Grading', 'Master Finishing'],
-    outcome: 'Seamless commercial delivery meeting top-tier broadcast and digital screening standards.'
-  },
-  {
-    id: 'wedding-granth',
-    num: '05',
-    client: 'WEDDING GRANTH',
-    title: 'TIMELESS EMOTION & LUSTRE',
-    category: 'CINEMATOGRAPHY & BRAND FILM',
-    servicesTag: 'CINEMATOGRAPHY / FILMS / POST',
-    mediaType: 'video',
-    mediaSrc: '/post_production.mp4',
-    poster: '/timeless_lustre.webp',
-    accent: '#C8FF00',
-    brief: 'Wedding Granth sought a luxury editorial film language capturing intimate, heirloom moments beyond standard coverage.',
-    idea: 'Direct every frame like a cinematic heritage feature with nuanced lighting and rich color science.',
-    approach: 'Shot on cinema primes with custom ACES color grading and bespoke acoustic score orchestration.',
-    deliverables: ['Heirloom Wedding Films', 'Editorial Teaser Cuts', 'Cinematic Portrait Series', 'High-Res Stills Library'],
-    outcome: 'Established Wedding Granth as a premier ultra-luxury wedding atelier across North & Central India.'
-  },
-  {
-    id: 'viral-lab',
-    num: '06',
-    client: 'THE VIRAL LAB',
-    title: 'HIGH-VELOCITY CREATIVE ENGINE',
-    category: 'SHORT FORM CONTENT & GROWTH',
-    servicesTag: 'CONTENT ENGINE / STRATEGY / FORMATS',
-    mediaType: 'image',
-    mediaSrc: '/social_media.webp',
-    accent: '#FF4A0A',
-    brief: 'The Viral Lab needed a rapid content production framework capable of testing 30+ short-form creative angles per month.',
-    idea: 'Modular visual hooks combined with tight editorial pacing and bold typographic typography.',
-    approach: 'Built a structured batch-production pipeline with rapid feedback loops and dynamic graphic templates.',
-    deliverables: ['Short-Form Video Engine', 'Hook Templates', 'Dynamic Subtitle Systems', 'Monthly Batch Packs'],
-    outcome: 'Consistent high-retention video formats that scaled organic reach and client acquisitions.'
-  },
-  {
-    id: 'raasrang',
-    num: '07',
-    client: 'RAASRANG',
-    title: 'CULTURAL CELEBRATION & FESTIVAL FILM',
-    category: 'CAMPAIGN & EVENT PRODUCTION',
-    servicesTag: 'EVENT FILM / STILLS / CAMPAIGN',
-    mediaType: 'image',
-    mediaSrc: '/rhythm_after_dark.webp',
-    accent: '#2447FF',
-    brief: 'RaasRang required vibrant multi-cam event documentation capturing thousands celebrating traditional heritage arts.',
-    idea: 'Immerse viewers in rhythmic energy, bold traditional colors, and authentic community joy.',
-    approach: 'Deployed dynamic gimbal rigs, drone coverage, and high-energy electronic folk sound design.',
-    deliverables: ['Festival Aftermovie', 'Social Teaser Series', 'Live Photo Documentation', 'Sponsor Asset Pack'],
-    outcome: 'Elevated festival equity and established the definitive annual cultural benchmark.'
+    headline: 'MORE THAN AN EVENT. AN EXPERIENCE IN MOTION.',
+    heroSub: 'VAAYU PRODUCTIONS × TVR',
+    brief: 'Vaayu Productions collaborated with us to document major college events—moving past typical static event recap videos into high-energy, cinematic storytelling. The goal was to preserve the real atmosphere, spontaneous crowd reactions, and stage performances while creating fast-paced reels engineered for digital culture.',
+    idea: 'Treat campus festivals like live cinematic experiences. By deploying multi-angle cinematography, high-frame-rate movement, and rhythm-synchronized editing, we captured the raw intensity of live performances and candid youth culture as it happened.',
+    approach: 'On-ground live concert coverage, high-energy stage cinematography, vertical reel editing, and dynamic night color grading.',
+    deliverables: ['Cinematic Event Aftermovie', 'High-Energy Social Reels', 'Stage Performance Stills', 'Atmospheric Event Cutdowns'],
+    outcome: 'A cohesive suite of cinematic event films and high-impact social reels that immortalized the campus festival experience—delivering authentic visual proof of student culture, live music, and electric event energy.'
   }
 ];
+
+// ==========================================
+// 4B. THE TVR PLAYLIST (CURATED VERTICAL SHOWCASE)
+// ==========================================
+const TVR_PLAYLIST_ITEMS = [
+  {
+    id: 'head-talking',
+    category: 'Head talking',
+    title: 'Founder Communication',
+    subtitle: '',
+    poster: '/tvr-cred-thumbnail.png',
+    videoSrc: '/Cred.mp4',
+    isVertical: true
+  },
+  {
+    id: 'ai-avatar',
+    category: 'AI Avatar',
+    title: 'Digital Persona Pipeline',
+    subtitle: '',
+    poster: '/tvr-saiara-thumbnail.png',
+    videoSrc: '/saiara-fin.mp4',
+    isVertical: true
+  },
+  {
+    id: 'ai-ads',
+    category: 'AI Ads',
+    title: 'Generative Product Commercials',
+    subtitle: '',
+    poster: '/tvr-court-room-thumbnail.png',
+    videoSrc: '/court-room.mp4',
+    isVertical: true
+  },
+  {
+    id: 'events',
+    category: 'Events',
+    title: 'Campus & Festival Films',
+    subtitle: '',
+    poster: '/tvr-protsahan-thumbnail.png',
+    videoSrc: '/protsahan.mp4',
+    isVertical: false
+  },
+  {
+    id: 'commercial-film',
+    category: 'Commercial Film',
+    title: 'Brand Partnership Documentary',
+    subtitle: '',
+    poster: '/tvr-commercial-thumbnail.png',
+    videoSrc: '/protsahan.mp4',
+    isVertical: false
+  },
+  {
+    id: 'wedding-film',
+    category: 'Wedding Film',
+    title: 'Heirloom Emotion Cinema',
+    subtitle: '',
+    poster: '/tvr-wedding-thumbnail.png',
+    videoSrc: '/pooja-kunal-pre-wedding.mp4',
+    isVertical: false
+  }
+];
+
+const TVR_PLAYLIST_PROJECT = {
+  id: 'tvr-playlist',
+  num: '05',
+  client: 'THE TVR PLAYLIST',
+  title: 'THE TVR PLAYLIST.',
+  category: 'FILM · AI ADS · EVENTS · REELS · EXPERIMENTS',
+  servicesTag: 'CURATED COLLECTION · 6 DISCIPLINES',
+  ctaText: 'EXPLORE THE PLAYLIST ↗',
+  description: "Films, campaigns, AI experiments and everything we've brought to life.",
+  mediaType: 'image',
+  mediaSrc: '/tvr-playlist-cover.png',
+  thumbnail: '/tvr-playlist-cover.png',
+  videoSrc: '/post_production.mp4',
+  poster: '/tvr-playlist-cover.png',
+  accent: '#C8FF00',
+  headline: 'FILMS, CAMPAIGNS & EXPERIMENTS IN MOTION.',
+  heroSub: 'THE TVR PLAYLIST × TVR',
+  brief: "A unified curated anthology bringing together TVR's capabilities across commercial storytelling, AI-powered founder media, live events, digital avatars and experimental visual formats.",
+  idea: "Rather than isolating work into static portfolios, showcase living specimens categorized across 6 key disciplines in high-impact vertical formats, allowing clients and partners to experience TVR's complete creative spectrum.",
+  approach: "Multi-disciplinary creative curation covering founder personal branding, generative AI video, live event cinematography, commercial documentary, and heritage emotional filmmaking.",
+  deliverables: ['Head talking (Founder Communication)', 'AI Avatar (Digital Persona)', 'AI Ads (Generative Commercials)', 'Events (Campus & Festivals)', 'Commercial Film (Documentary)', 'Wedding Film (Heirloom Emotion)'],
+  outcome: "A versatile, multi-format media library giving clients instant proof of TVR's visual range, speed, and creative depth—all in one place."
+};
+
+function TvrPlaylistCard({ onOpenCaseStudy, onCursorEnter, onCursorLeave, isDark = true }) {
+  if (isDark) {
+    return (
+      <div className="col-span-1 md:col-span-2 flex justify-center">
+        <div className="w-full max-w-xl">
+          <div 
+            onClick={() => onOpenCaseStudy(TVR_PLAYLIST_PROJECT)}
+            onMouseEnter={() => onCursorEnter && onCursorEnter('project', 'EXPLORE ↗')}
+            onMouseLeave={onCursorLeave}
+            className="group bg-[#141414] border border-white/15 rounded-3xl overflow-hidden hover:border-[#C8FF00] transition-all duration-300 cursor-pointer flex flex-col justify-between shadow-lg hover:shadow-2xl h-full"
+          >
+            <div className="relative aspect-[4/3] bg-black overflow-hidden">
+              <img 
+                src="/tvr-playlist-cover.png" 
+                alt="THE TVR PLAYLIST" 
+                className="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              
+              <div className="absolute top-4 left-4 bg-black/80 px-3.5 py-1 rounded-full font-mono text-[10px] uppercase font-bold tracking-wider text-[#C8FF00] border border-[#C8FF00]/30 backdrop-blur flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#C8FF00] animate-pulse" />
+                <span>THE PLAYLIST</span>
+              </div>
+
+              <div className="absolute bottom-4 right-4 bg-[#C8FF00] text-[#111111] p-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-2 group-hover:translate-y-0 shadow-xl">
+                <ArrowUpRight className="w-4 h-4" />
+              </div>
+            </div>
+
+            <div className="p-6 sm:p-8 flex-1 flex flex-col justify-between">
+              <div>
+                <span className="font-mono text-xs uppercase text-[#C8FF00] font-bold block mb-2">
+                  FILM · AI ADS · EVENTS · REELS · EXPERIMENTS
+                </span>
+                <h3 className="font-display font-black text-2xl sm:text-3xl uppercase tracking-tight text-white mb-2 group-hover:text-[#C8FF00] transition-colors">
+                  THE TVR PLAYLIST.
+                </h3>
+                <p className="font-mono text-xs uppercase tracking-wider text-white/50 mb-3">
+                  6 DISCIPLINES · VERTICAL SHOWCASE
+                </p>
+                <p className="text-white/70 text-sm leading-relaxed mb-6 line-clamp-2">
+                  Films, campaigns, AI experiments and everything we've brought to life.
+                </p>
+              </div>
+
+              <div className="flex items-center gap-2 font-display text-xs uppercase font-bold tracking-wider text-white group-hover:translate-x-1 transition-transform pt-4 border-t border-white/10">
+                <span>EXPLORE THE PLAYLIST</span>
+                <ArrowUpRight className="w-4 h-4 text-[#C8FF00]" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="col-span-1 lg:col-span-2 flex justify-center">
+      <div className="w-full max-w-xl">
+        <div 
+          onClick={() => onOpenCaseStudy(TVR_PLAYLIST_PROJECT)}
+          onMouseEnter={() => onCursorEnter && onCursorEnter('project', 'EXPLORE ↗')}
+          onMouseLeave={onCursorLeave}
+          className="group bg-white rounded-2xl border border-[#111111]/10 hover:border-[#111111] overflow-hidden transition-all duration-300 cursor-pointer shadow-sm hover:shadow-xl flex flex-col justify-between h-full"
+        >
+          <div className="relative aspect-[16/10] bg-[#111111] overflow-hidden">
+            <img 
+              src="/tvr-playlist-cover.png" 
+              alt="THE TVR PLAYLIST" 
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90"
+            />
+            <div className="absolute top-4 left-4">
+              <span className="font-mono text-[10px] uppercase font-bold tracking-wider px-3 py-1 bg-black/80 text-[#C8FF00] border border-[#C8FF00]/30 backdrop-blur rounded-full inline-flex items-center gap-1.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-[#C8FF00] animate-pulse" />
+                <span>THE PLAYLIST</span>
+              </span>
+            </div>
+            <div className="absolute bottom-4 right-4 bg-white text-[#111111] p-2.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-2 group-hover:translate-y-0 shadow-lg">
+              <ArrowUpRight className="w-5 h-5" />
+            </div>
+          </div>
+          <div className="p-8 flex-1 flex flex-col justify-between">
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <span className="font-display font-black text-sm uppercase tracking-wider text-[#FF4A0A]">
+                  THE PLAYLIST
+                </span>
+                <span className="font-mono text-xs text-[#111111]/40">05</span>
+              </div>
+              <h3 className="font-display font-black text-2xl uppercase tracking-tight text-[#111111] mb-2 group-hover:text-[#FF4A0A] transition-colors">
+                THE TVR PLAYLIST.
+              </h3>
+              <p className="font-mono text-xs uppercase tracking-wider text-[#111111]/60 mb-4">
+                FILM · AI ADS · EVENTS · REELS · EXPERIMENTS
+              </p>
+              <p className="text-[#111111]/70 text-sm mb-6 line-clamp-2">
+                Films, campaigns, AI experiments and everything we've brought to life.
+              </p>
+            </div>
+            <div className="flex items-center gap-2 font-display text-xs uppercase font-bold tracking-wider text-[#111111] group-hover:text-[#FF4A0A] group-hover:translate-x-1 transition-all pt-4 border-t border-[#111111]/10">
+              <span>EXPLORE THE PLAYLIST</span>
+              <ArrowUpRight className="w-4 h-4 text-[#FF4A0A]" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 // ==========================================
 // 5. INTERACTIVE SERVICE CARD COMPONENT
@@ -2074,6 +2245,17 @@ export default function App() {
   const [selectedPillar, setSelectedPillar] = useState(null);
   const [selectedCaseStudy, setSelectedCaseStudy] = useState(null);
   const [selectedVideo, setSelectedVideo] = useState(null);
+
+  // Escape key listener to close video lightbox
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape' && selectedVideo) {
+        setSelectedVideo(null);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [selectedVideo]);
   
   // Contact Form
   const [formData, setFormData] = useState({
@@ -2669,11 +2851,23 @@ export default function App() {
                         {item.servicesTag}
                       </p>
                       <p className="text-[#111111]/70 text-sm line-clamp-2">
-                        {item.brief}
+                        {item.description || item.brief}
                       </p>
+                      <div className="flex items-center gap-2 font-display text-xs uppercase font-bold tracking-wider text-[#111111] group-hover:text-[#FF4A0A] group-hover:translate-x-1 transition-all mt-6 pt-4 border-t border-[#111111]/10">
+                        <span>VIEW CASE STUDY</span>
+                        <ArrowUpRight className="w-4 h-4 text-[#FF4A0A]" />
+                      </div>
                     </div>
                   </div>
                 ))}
+
+                {/* THE TVR PLAYLIST SHOWCASE CARD */}
+                <TvrPlaylistCard 
+                  onOpenCaseStudy={setSelectedCaseStudy}
+                  onCursorEnter={onCursorEnter}
+                  onCursorLeave={onCursorLeave}
+                  isDark={false}
+                />
               </div>
             </div>
           </section>
@@ -3267,7 +3461,7 @@ export default function App() {
                         {item.servicesTag}
                       </p>
                       <p className="text-white/70 text-sm leading-relaxed mb-6 line-clamp-2">
-                        {item.brief}
+                        {item.description || item.brief}
                       </p>
 
                       <div className="flex items-center gap-2 font-display text-xs uppercase font-bold tracking-wider text-white group-hover:translate-x-1 transition-transform">
@@ -3277,6 +3471,14 @@ export default function App() {
                     </div>
                   </div>
                 ))}
+
+                {/* THE TVR PLAYLIST SHOWCASE CARD */}
+                <TvrPlaylistCard 
+                  onOpenCaseStudy={setSelectedCaseStudy}
+                  onCursorEnter={onCursorEnter}
+                  onCursorLeave={onCursorLeave}
+                  isDark={true}
+                />
               </div>
 
             </div>
@@ -3418,48 +3620,88 @@ export default function App() {
             </div>
 
             <div className="md:col-span-3">
-              <span className="font-mono text-xs uppercase tracking-widest text-white/40 block mb-4">
+              <span className="font-mono text-xs uppercase tracking-widest text-[#FF4A0A] font-bold block mb-4">
                 NAVIGATION
               </span>
-              <ul className="space-y-2">
+              <ul className="space-y-3 list-none p-0 m-0">
                 <li>
-                  <button onClick={() => navigateTo('work')} className="text-sm font-bold uppercase tracking-wider text-white/80 hover:text-[#FF4A0A] transition-colors">
-                    WORK
+                  <button 
+                    onClick={() => navigateTo('work')} 
+                    onMouseEnter={() => onCursorEnter('hover')}
+                    onMouseLeave={onCursorLeave}
+                    className="group inline-flex items-center gap-2.5 text-sm font-bold uppercase tracking-wider text-white/90 hover:text-[#FF4A0A] transition-colors bg-transparent border-0 p-0 text-left focus:outline-none"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A] group-hover:scale-125 transition-transform" />
+                    <span>WORK</span>
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => navigateTo('services')} className="text-sm font-bold uppercase tracking-wider text-white/80 hover:text-[#FF4A0A] transition-colors">
-                    SERVICES
+                  <button 
+                    onClick={() => navigateTo('services')} 
+                    onMouseEnter={() => onCursorEnter('hover')}
+                    onMouseLeave={onCursorLeave}
+                    className="group inline-flex items-center gap-2.5 text-sm font-bold uppercase tracking-wider text-white/90 hover:text-[#FF4A0A] transition-colors bg-transparent border-0 p-0 text-left focus:outline-none"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A] group-hover:scale-125 transition-transform" />
+                    <span>SERVICES</span>
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => navigateTo('about')} className="text-sm font-bold uppercase tracking-wider text-white/80 hover:text-[#FF4A0A] transition-colors">
-                    ABOUT
+                  <button 
+                    onClick={() => navigateTo('about')} 
+                    onMouseEnter={() => onCursorEnter('hover')}
+                    onMouseLeave={onCursorLeave}
+                    className="group inline-flex items-center gap-2.5 text-sm font-bold uppercase tracking-wider text-white/90 hover:text-[#FF4A0A] transition-colors bg-transparent border-0 p-0 text-left focus:outline-none"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A] group-hover:scale-125 transition-transform" />
+                    <span>ABOUT</span>
                   </button>
                 </li>
                 <li>
-                  <button onClick={() => handleStartProject()} className="text-sm font-bold uppercase tracking-wider text-white/80 hover:text-[#FF4A0A] transition-colors">
-                    CONTACT
+                  <button 
+                    onClick={() => handleStartProject()} 
+                    onMouseEnter={() => onCursorEnter('cta', 'TALK ↗')}
+                    onMouseLeave={onCursorLeave}
+                    className="group inline-flex items-center gap-2.5 text-sm font-bold uppercase tracking-wider text-white/90 hover:text-[#FF4A0A] transition-colors bg-transparent border-0 p-0 text-left focus:outline-none"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A] group-hover:scale-125 transition-transform" />
+                    <span>CONTACT</span>
                   </button>
                 </li>
               </ul>
             </div>
 
             <div className="md:col-span-3">
-              <span className="font-mono text-xs uppercase tracking-widest text-white/40 block mb-4">
+              <span className="font-mono text-xs uppercase tracking-widest text-[#FF4A0A] font-bold block mb-4">
                 CONNECT
               </span>
-              <ul className="space-y-2">
+              <ul className="space-y-3 list-none p-0 m-0">
                 <li>
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-sm font-bold uppercase tracking-wider text-white/80 hover:text-[#FF4A0A] transition-colors flex items-center gap-1">
+                  <a 
+                    href="https://instagram.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    onMouseEnter={() => onCursorEnter('hover')}
+                    onMouseLeave={onCursorLeave}
+                    className="group inline-flex items-center gap-2.5 text-sm font-bold uppercase tracking-wider text-white/90 hover:text-[#FF4A0A] transition-colors bg-transparent border-0 p-0"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A] group-hover:scale-125 transition-transform" />
                     <span>Instagram</span>
-                    <ArrowUpRight className="w-3.5 h-3.5" />
+                    <ArrowUpRight className="w-3.5 h-3.5 text-[#FF4A0A] opacity-70 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-sm font-bold uppercase tracking-wider text-white/80 hover:text-[#FF4A0A] transition-colors flex items-center gap-1">
+                  <a 
+                    href="https://linkedin.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    onMouseEnter={() => onCursorEnter('hover')}
+                    onMouseLeave={onCursorLeave}
+                    className="group inline-flex items-center gap-2.5 text-sm font-bold uppercase tracking-wider text-white/90 hover:text-[#FF4A0A] transition-colors bg-transparent border-0 p-0"
+                  >
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A] group-hover:scale-125 transition-transform" />
                     <span>LinkedIn</span>
-                    <ArrowUpRight className="w-3.5 h-3.5" />
+                    <ArrowUpRight className="w-3.5 h-3.5 text-[#FF4A0A] opacity-70 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
                   </a>
                 </li>
               </ul>
@@ -3488,7 +3730,7 @@ export default function App() {
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/85 backdrop-blur-sm animate-fadeIn">
           <div className="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-y-auto border-2 border-[#111111] shadow-2xl relative">
             
-            <div className="sticky top-0 z-10 bg-white/90 backdrop-blur border-b border-[#111111]/10 px-6 py-4 flex items-center justify-between">
+            <div className="sticky top-0 z-10 bg-white/95 backdrop-blur border-b border-[#111111]/10 px-6 py-4 flex items-center justify-between">
               <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-wider text-[#FF4A0A]">
                 <span>{selectedCaseStudy.client}</span>
                 <span>/</span>
@@ -3503,62 +3745,918 @@ export default function App() {
               </button>
             </div>
 
-            <div className="p-6 sm:p-10 space-y-8">
-              <div>
-                <span className="font-mono text-xs text-[#111111]/60 uppercase tracking-wider block mb-1">
-                  {selectedCaseStudy.servicesTag}
-                </span>
-                <h2 className="font-display font-black text-3xl sm:text-5xl uppercase tracking-tight text-[#111111]">
-                  {selectedCaseStudy.title}
-                </h2>
-              </div>
+            {selectedCaseStudy.id === 'kapiva' ? (
+              /* KAPIVA DEDICATED CASE STUDY */
+              <div className="p-6 sm:p-10 space-y-10">
+                {/* 1. Project hero & 2. Large headline & 3. Short project introduction */}
+                <div className="space-y-4">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF4A0A]/10 border border-[#FF4A0A]/20">
+                    <span className="w-2 h-2 rounded-full bg-[#FF4A0A]" />
+                    <span className="font-mono text-xs uppercase font-bold tracking-widest text-[#FF4A0A]">
+                      KAPIVA × TVR
+                    </span>
+                  </div>
 
-              <div className="rounded-2xl overflow-hidden bg-black border border-[#111111]">
-                {selectedCaseStudy.mediaType === 'video' ? (
-                  <video 
-                    src={selectedCaseStudy.mediaSrc} 
-                    poster={selectedCaseStudy.poster}
-                    controls 
-                    autoPlay 
-                    className="w-full aspect-video object-cover"
-                  />
-                ) : (
-                  <img 
-                    src={selectedCaseStudy.mediaSrc} 
-                    alt={selectedCaseStudy.title} 
-                    className="w-full aspect-[16/10] object-cover"
-                  />
-                )}
-              </div>
+                  <h2 className="font-display font-black text-3xl sm:text-5xl uppercase tracking-tight text-[#111111] leading-[1.05]">
+                    PRODUCT STORIES, REIMAGINED WITH AI.
+                  </h2>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div>
-                  <h4 className="font-mono text-xs uppercase font-bold tracking-wider text-[#FF4A0A] mb-2">THE BRIEF</h4>
-                  <p className="text-sm text-[#111111]/80 leading-relaxed">{selectedCaseStudy.brief}</p>
+                  <p className="font-mono text-xs text-[#111111]/60 uppercase tracking-wider">
+                    {selectedCaseStudy.category}
+                  </p>
+
+                  <p className="text-base sm:text-lg text-[#111111]/85 leading-relaxed max-w-3xl pt-2">
+                    {selectedCaseStudy.description}
+                  </p>
                 </div>
-                <div>
-                  <h4 className="font-mono text-xs uppercase font-bold tracking-wider text-[#FF4A0A] mb-2">THE IDEA</h4>
-                  <p className="text-sm text-[#111111]/80 leading-relaxed">{selectedCaseStudy.idea}</p>
+
+                {/* Hero Cinematic Visual / Video */}
+                <div className="space-y-2">
+                  <div className="rounded-2xl overflow-hidden bg-black border-2 border-[#111111] shadow-xl">
+                    <video 
+                      src={selectedCaseStudy.videoSrc || selectedCaseStudy.mediaSrc} 
+                      poster={selectedCaseStudy.poster}
+                      controls 
+                      autoPlay 
+                      className="w-full aspect-video object-cover"
+                    />
+                  </div>
+                  <div className="flex items-center justify-between px-1 text-[11px] font-mono uppercase tracking-wider text-[#111111]/50">
+                    <span>COMMERCIAL FILM CUT · AI CONCEPTUALIZATION</span>
+                    <span>16:9 4K SPECIMEN</span>
+                  </div>
+                </div>
+
+                {/* 4. The Brief & 5. The Idea */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4 border-t border-[#111111]/10">
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4A0A]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A]" />
+                      <h4>THE BRIEF</h4>
+                    </div>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">
+                      Kapiva required a visual strategy to bring their Ayurvedic wellness formulations to life in contemporary media—moving past traditional tabletop catalog clips into elevated, highly aesthetic film pieces that capture the balance between organic nature and scientific formulation.
+                    </p>
+                  </div>
+
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4A0A]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A]" />
+                      <h4>THE IDEA</h4>
+                    </div>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">
+                      Pair crisp commercial tabletop lighting and macro botanical textures with generative AI conceptualization and swift, modern typographic motion—visualizing the living essence, texture, and vitality of each ingredient converging into the final product.
+                    </p>
+                  </div>
+                </div>
+
+                {/* 6. The Execution */}
+                <div className="space-y-4 pt-4 border-t border-[#111111]/10">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4A0A]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A]" />
+                    <h4>THE EXECUTION</h4>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4A0A] block">01 / CONCEPT DEVELOPMENT</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Narrative Architecture</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Structuring narrative arcs that honor Kapiva’s Ayurvedic foundation while matching modern digital-first pacing and visual standards.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4A0A] block">02 / AI VISUAL CREATION</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Generative Worldbuilding</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Harnessing advanced generative visual workflows to imagine abstract ingredient environments, micro-textures, and ethereal botanical atmospheres.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4A0A] block">03 / PRODUCT-FOCUSED STORYTELLING</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Fidelity & Integration</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Seamlessly integrating high-fidelity product bottles and packaging into surreal, living natural landscapes with immaculate lighting.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4A0A] block">04 / MOTION & POST-PRODUCTION</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Kinetic Finishing</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Precise motion editing, kinetic typography, atmospheric soundscaping, and seamless color grading to deliver commercial-grade film assets.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 7. The Creative Approach */}
+                <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] text-white border-2 border-[#111111] space-y-3">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4A0A]">
+                    <Sparkles className="w-4 h-4 text-[#FF4A0A]" />
+                    <span>THE CREATIVE APPROACH</span>
+                  </div>
+                  <p className="text-sm sm:text-base text-white/85 leading-relaxed">
+                    We treated AI not as a shortcut, but as an expansive conceptual lens—allowing us to construct cinematic macro worlds, fluid transitions, and lighting scenarios that traditional physical studio builds couldn't achieve at speed, all while preserving uncompromising product fidelity.
+                  </p>
+                </div>
+
+                {/* 8. The Outcome */}
+                <div className="p-6 sm:p-8 rounded-2xl bg-[#F5F1E8] border border-[#111111]/15 space-y-3">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#111111]">
+                    <CheckCircle2 className="w-4 h-4 text-[#FF4A0A]" />
+                    <span className="font-bold">THE OUTCOME</span>
+                  </div>
+                  <p className="text-sm sm:text-base text-[#111111] font-medium leading-relaxed">
+                    A cohesive suite of cinematic, AI-powered product advertisements built for multi-platform distribution—elevating Kapiva's brand perception and demonstrating how AI-led visual storytelling redefines modern wellness marketing without relying on stock conventions.
+                  </p>
+                </div>
+
+                {/* 9. Built by TVR & 10. Final CTA */}
+                <div className="pt-6 border-t border-[#111111]/10 flex flex-col sm:flex-row items-center justify-between gap-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-3 h-3 rounded-full bg-[#FF4A0A]" />
+                    <div>
+                      <span className="font-display font-black text-sm uppercase tracking-wider text-[#111111] block">
+                        BUILT BY TVR
+                      </span>
+                      <span className="font-mono text-[11px] text-[#111111]/50 uppercase tracking-widest">
+                        THE VISUAL ROOM · CONTENT & AD PRODUCTION
+                      </span>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => {
+                      setSelectedCaseStudy(null);
+                      handleStartProject('AI-Powered Product Advertising (Kapiva Style)');
+                    }}
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#FF4A0A] hover:bg-[#111111] text-white font-display text-xs uppercase font-bold tracking-wider px-8 py-4 rounded-full transition-all shadow-md group"
+                  >
+                    <span>START A SIMILAR PROJECT</span>
+                    <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                  </button>
                 </div>
               </div>
+            ) : selectedCaseStudy.id === 'sourcebae' ? (
+              /* SOURCEBAE DEDICATED CASE STUDY */
+              <div className="p-6 sm:p-10 space-y-10">
+                {/* 1. Project Hero & 2. Headline & 3. Project Overview */}
+                <div className="space-y-4">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF4F8B]/10 border border-[#FF4F8B]/20">
+                    <span className="w-2 h-2 rounded-full bg-[#FF4F8B]" />
+                    <span className="font-mono text-xs uppercase font-bold tracking-widest text-[#FF4F8B]">
+                      SOURCEBAE × TVR
+                    </span>
+                  </div>
 
-              <div className="p-6 bg-[#F5F1E8] rounded-xl border border-[#111111]/10">
-                <h4 className="font-mono text-xs uppercase font-bold tracking-wider text-[#111111] mb-2">THE OUTCOME</h4>
-                <p className="text-sm font-semibold text-[#111111]">{selectedCaseStudy.outcome}</p>
-              </div>
+                  <h2 className="font-display font-black text-3xl sm:text-5xl uppercase tracking-tight text-[#111111] leading-[1.05]">
+                    ONE VOICE. A SCALABLE DIGITAL PRESENCE.
+                  </h2>
 
-              <div className="flex items-center justify-between pt-4 border-t border-[#111111]/10">
-                <button
-                  onClick={() => {
-                    setSelectedCaseStudy(null);
-                    handleStartProject(`Inquiry about ${selectedCaseStudy.client} style project`);
-                  }}
-                  className="bg-[#111111] text-white font-display text-xs uppercase font-bold tracking-wider px-6 py-3 rounded-full hover:bg-[#FF4A0A] transition-colors"
-                >
-                  START SIMILAR PROJECT ↗
-                </button>
+                  <p className="font-mono text-xs text-[#111111]/60 uppercase tracking-wider">
+                    {selectedCaseStudy.category}
+                  </p>
+
+                  <p className="text-base sm:text-lg text-[#111111]/85 leading-relaxed max-w-3xl pt-2">
+                    {selectedCaseStudy.description}
+                  </p>
+                </div>
+
+                {/* Hero Visual / Avatar Video */}
+                <div className="space-y-2">
+                  <div className="rounded-2xl overflow-hidden bg-black border-2 border-[#111111] shadow-xl">
+                    <video 
+                      src={selectedCaseStudy.videoSrc || selectedCaseStudy.mediaSrc} 
+                      poster={selectedCaseStudy.poster}
+                      controls 
+                      autoPlay 
+                      className="w-full aspect-video object-cover"
+                    />
+                  </div>
+                  <div className="flex items-center justify-between px-1 text-[11px] font-mono uppercase tracking-wider text-[#111111]/50">
+                    <span>DIGITAL AVATAR & FOUNDER PRESENCE WORKFLOW</span>
+                    <span>AI-ASSISTED PRODUCTION SPECIMEN</span>
+                  </div>
+                </div>
+
+                {/* 4. The Brief & 5. The Idea */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4 border-t border-[#111111]/10">
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4F8B]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#FF4F8B]" />
+                      <h4>THE BRIEF</h4>
+                    </div>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">
+                      Sourcebae's leadership wanted to scale their founder-led communication and presence across digital channels, but frequent physical studio shoots and busy operational schedules created consistent bottlenecks. They needed a sustainable, high-fidelity system to turn ideas into video content rapidly.
+                    </p>
+                  </div>
+
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4F8B]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#FF4F8B]" />
+                      <h4>THE IDEA</h4>
+                    </div>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">
+                      Create an AI-assisted personal branding pipeline centered on the founder. By capturing an accurate digital avatar and cloning the founder’s natural speaking voice, we established a production-ready model that allows agile script deployment into finished video while keeping the founder in complete editorial control.
+                    </p>
+                  </div>
+                </div>
+
+                {/* 6. The Execution */}
+                <div className="space-y-4 pt-4 border-t border-[#111111]/10">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4F8B]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF4F8B]" />
+                    <h4>THE EXECUTION</h4>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4F8B] block">01 / DIGITAL AVATAR CALIBRATION</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Visual Baseline & Expression</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        High-resolution capture of founder expressions, lighting baselines, and natural camera framing to build a controlled digital representation.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4F8B] block">02 / VOICE CLONING & AUDIO MODELING</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Neural Voice Profile</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Detailed acoustic modeling of founder vocal cadence, inflection, and tone for natural script delivery.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4F8B] block">03 / NARRATIVE & SCRIPT SYSTEM</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Thought Leadership Architecture</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Developing founder-led content pillars, industry insights, and structured narrative formats tailored for authentic authority.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4F8B] block">04 / HYBRID VIDEO PRODUCTION</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Editorial Pacing & Finishing</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Combining AI-generated avatar scenes with studio b-roll, motion graphics, clean color science, and editorial pacing.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 7. The Creative Approach */}
+                <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] text-white border-2 border-[#111111] space-y-3">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4F8B]">
+                    <Sparkles className="w-4 h-4 text-[#FF4F8B]" />
+                    <span>THE CREATIVE APPROACH</span>
+                  </div>
+                  <p className="text-sm sm:text-base text-white/85 leading-relaxed">
+                    We approached digital avatars not as a novelty or total replacement for humanity, but as an operational leverage tool. The goal was not to claim indistinguishable perfection, but to empower founder-led authority—ensuring every piece of content authentically reflects the founder’s real perspective, verified ideas, and editorial standards.
+                  </p>
+                </div>
+
+                {/* 8. The Outcome */}
+                <div className="p-6 sm:p-8 rounded-2xl bg-[#F5F1E8] border border-[#111111]/15 space-y-3">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#111111]">
+                    <CheckCircle2 className="w-4 h-4 text-[#FF4F8B]" />
+                    <span className="font-bold">THE OUTCOME</span>
+                  </div>
+                  <p className="text-sm sm:text-base text-[#111111] font-medium leading-relaxed">
+                    A repeatable, AI-assisted video production workflow that enables Sourcebae to maintain active founder presence and thought leadership without physical studio downtime—transforming founder insights into polished video assets with rapid turnaround.
+                  </p>
+                </div>
+
+                {/* 9. Built by TVR & 10. Final CTA */}
+                <div className="pt-6 border-t border-[#111111]/10 flex flex-col sm:flex-row items-center justify-between gap-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-3 h-3 rounded-full bg-[#FF4F8B]" />
+                    <div>
+                      <span className="font-display font-black text-sm uppercase tracking-wider text-[#111111] block">
+                        BUILT BY TVR
+                      </span>
+                      <span className="font-mono text-[11px] text-[#111111]/50 uppercase tracking-widest">
+                        THE VISUAL ROOM · AI WORKFLOWS & PERSONAL BRANDING
+                      </span>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => {
+                      setSelectedCaseStudy(null);
+                      handleStartProject('Founder Personal Branding & AI Avatar (Sourcebae Style)');
+                    }}
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#FF4A0A] hover:bg-[#111111] text-white font-display text-xs uppercase font-bold tracking-wider px-8 py-4 rounded-full transition-all shadow-md group"
+                  >
+                    <span>START A SIMILAR PROJECT</span>
+                    <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                  </button>
+                </div>
               </div>
-            </div>
+            ) : selectedCaseStudy.id === 'spinny' ? (
+              /* SPINNY × PATEL CAR DECOR DEDICATED CASE STUDY */
+              <div className="p-6 sm:p-10 space-y-10">
+                {/* 1. Project Hero & 2. Headline & 3. Project Introduction */}
+                <div className="space-y-4">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2447FF]/10 border border-[#2447FF]/20">
+                    <span className="w-2 h-2 rounded-full bg-[#2447FF]" />
+                    <span className="font-mono text-xs uppercase font-bold tracking-widest text-[#2447FF]">
+                      SPINNY × PATEL CAR DECOR
+                    </span>
+                  </div>
+
+                  <h2 className="font-display font-black text-3xl sm:text-5xl uppercase tracking-tight text-[#111111] leading-[1.05]">
+                    EVERY PARTNERSHIP HAS A STORY.
+                  </h2>
+
+                  <p className="font-mono text-xs text-[#111111]/60 uppercase tracking-wider">
+                    {selectedCaseStudy.category}
+                  </p>
+
+                  <p className="text-base sm:text-lg text-[#111111]/85 leading-relaxed max-w-3xl pt-2">
+                    {selectedCaseStudy.description}
+                  </p>
+                </div>
+
+                {/* Hero Visual / Documentary Film */}
+                <div className="space-y-2">
+                  <div className="rounded-2xl overflow-hidden bg-black border-2 border-[#111111] shadow-xl">
+                    <video 
+                      src={selectedCaseStudy.videoSrc || selectedCaseStudy.mediaSrc} 
+                      poster={selectedCaseStudy.poster}
+                      controls 
+                      autoPlay 
+                      className="w-full aspect-video object-cover"
+                    />
+                  </div>
+                  <div className="flex items-center justify-between px-1 text-[11px] font-mono uppercase tracking-wider text-[#111111]/50">
+                    <span>DOCUMENTARY FILM · SPINNY × PATEL CAR DECOR</span>
+                    <span>REAL ON-GROUND COLLABORATION SPECIMEN</span>
+                  </div>
+                </div>
+
+                {/* 4. The Brief & 5. The Idea */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4 border-t border-[#111111]/10">
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#2447FF]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#2447FF]" />
+                      <h4>THE BRIEF</h4>
+                    </div>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">
+                      Spinny wanted to capture the genuine human story and operational depth behind their partnership with Patel Car Decor—moving away from traditional corporate case studies or promotional advertising into an authentic, documentary-first film that documents trust, craftsmanship, and shared values.
+                    </p>
+                  </div>
+
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#2447FF]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#2447FF]" />
+                      <h4>THE IDEA</h4>
+                    </div>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">
+                      Ground the narrative in real people and honest conversations. Instead of scripted marketing claims, let the workshop floor, the craft of automotive detailing, and the multi-generational ethos of Patel Car Decor illustrate why this collaboration matters.
+                    </p>
+                  </div>
+                </div>
+
+                {/* 6. The Execution */}
+                <div className="space-y-4 pt-4 border-t border-[#111111]/10">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#2447FF]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#2447FF]" />
+                    <h4>THE EXECUTION</h4>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#2447FF] block">01 / ON-GROUND DOCUMENTARY SHOOT</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Real Environments & Workshop Reality</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Documentary camera direction on the workshop floor, capturing authentic interactions, candid interviews, and unscripted moments.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#2447FF] block">02 / HUMAN-LED STORYTELLING</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">People Behind the Craft</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Centering the voices of the founders, technicians, and partners to tell the story of heritage, trust, and shared standards.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#2447FF] block">03 / CINEMATIC WORKSHOP TEXTURES</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Macro Detailing & Atmosphere</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Wide framing paired with cinematic macro visuals of automotive preparation, detailing tools, and daily workshop operations.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#2447FF] block">04 / EDITORIAL PACING & FINISHING</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Documentary Rhythm & Color Grading</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Naturalistic editorial rhythm, nuanced documentary color science, and ambient sound design to preserve emotional authenticity.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 7. The Creative Approach */}
+                <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] text-white border-2 border-[#111111] space-y-3">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#2447FF]">
+                    <Sparkles className="w-4 h-4 text-[#2447FF]" />
+                    <span>THE CREATIVE APPROACH</span>
+                  </div>
+                  <p className="text-sm sm:text-base text-white/85 leading-relaxed">
+                    We approached this project with documentary integrity—stepping back to let the real voices and everyday craft lead the story. No artificial sets, no fabricated dialogue, and no corporate gloss. The strength of the partnership is proven through the dedication of the people who build it every day.
+                  </p>
+                </div>
+
+                {/* 8. The Outcome */}
+                <div className="p-6 sm:p-8 rounded-2xl bg-[#F5F1E8] border border-[#111111]/15 space-y-3">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#111111]">
+                    <CheckCircle2 className="w-4 h-4 text-[#2447FF]" />
+                    <span className="font-bold">THE OUTCOME</span>
+                  </div>
+                  <p className="text-sm sm:text-base text-[#111111] font-medium leading-relaxed">
+                    A character-driven brand documentary that deepens brand trust and honors real-world collaboration—providing Spinny and Patel Car Decor with an authentic film asset that resonates through genuine human connection.
+                  </p>
+                </div>
+
+                {/* 9. Built by TVR & 10. Final CTA */}
+                <div className="pt-6 border-t border-[#111111]/10 flex flex-col sm:flex-row items-center justify-between gap-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-3 h-3 rounded-full bg-[#2447FF]" />
+                    <div>
+                      <span className="font-display font-black text-sm uppercase tracking-wider text-[#111111] block">
+                        BUILT BY TVR
+                      </span>
+                      <span className="font-mono text-[11px] text-[#111111]/50 uppercase tracking-widest">
+                        THE VISUAL ROOM · DOCUMENTARY & BRAND FILM PRODUCTION
+                      </span>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => {
+                      setSelectedCaseStudy(null);
+                      handleStartProject('Brand Documentary & Partnership Film (Spinny Style)');
+                    }}
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#FF4A0A] hover:bg-[#111111] text-white font-display text-xs uppercase font-bold tracking-wider px-8 py-4 rounded-full transition-all shadow-md group"
+                  >
+                    <span>START A SIMILAR PROJECT</span>
+                    <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                  </button>
+                </div>
+              </div>
+            ) : selectedCaseStudy.id === 'vaayu' ? (
+              /* VAAYU PRODUCTIONS DEDICATED CASE STUDY */
+              <div className="p-6 sm:p-10 space-y-10">
+                {/* 1. Project Hero & 2. Headline & 3. Project Overview */}
+                <div className="space-y-4">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FFC928]/10 border border-[#FFC928]/30">
+                    <span className="w-2 h-2 rounded-full bg-[#FFC928]" />
+                    <span className="font-mono text-xs uppercase font-bold tracking-widest text-[#FFC928]">
+                      VAAYU PRODUCTIONS × TVR
+                    </span>
+                  </div>
+
+                  <h2 className="font-display font-black text-3xl sm:text-5xl uppercase tracking-tight text-[#111111] leading-[1.05]">
+                    MORE THAN AN EVENT. AN EXPERIENCE IN MOTION.
+                  </h2>
+
+                  <p className="font-mono text-xs text-[#111111]/60 uppercase tracking-wider">
+                    {selectedCaseStudy.category}
+                  </p>
+
+                  <p className="text-base sm:text-lg text-[#111111]/85 leading-relaxed max-w-3xl pt-2">
+                    {selectedCaseStudy.description}
+                  </p>
+                </div>
+
+                {/* Hero Visual / Campus Event Film */}
+                <div className="space-y-2">
+                  <div className="rounded-2xl overflow-hidden bg-black border-2 border-[#111111] shadow-xl">
+                    <video 
+                      src={selectedCaseStudy.videoSrc || selectedCaseStudy.mediaSrc} 
+                      poster={selectedCaseStudy.poster}
+                      controls 
+                      autoPlay 
+                      className="w-full aspect-video object-cover"
+                    />
+                  </div>
+                  <div className="flex items-center justify-between px-1 text-[11px] font-mono uppercase tracking-wider text-[#111111]/50">
+                    <span>CAMPUS FESTIVAL CINEMATOGRAPHY FILM · VAAYU PRODUCTIONS</span>
+                    <span>MULTI-CAM EVENT SPECIMEN</span>
+                  </div>
+                </div>
+
+                {/* 4. The Brief & 5. The Idea */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4 border-t border-[#111111]/10">
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FFC928]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#FFC928]" />
+                      <h4>THE BRIEF</h4>
+                    </div>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">
+                      Vaayu Productions collaborated with us to document major college events—moving past typical static event recap videos into high-energy, cinematic storytelling. The goal was to preserve the real atmosphere, spontaneous crowd reactions, and stage performances while creating fast-paced reels engineered for digital culture.
+                    </p>
+                  </div>
+
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FFC928]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#FFC928]" />
+                      <h4>THE IDEA</h4>
+                    </div>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">
+                      Treat campus festivals like live cinematic experiences. By deploying multi-angle cinematography, high-frame-rate movement, and rhythm-synchronized editing, we captured the raw intensity of live performances and candid youth culture as it happened.
+                    </p>
+                  </div>
+                </div>
+
+                {/* 6. The Execution */}
+                <div className="space-y-4 pt-4 border-t border-[#111111]/10">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FFC928]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FFC928]" />
+                    <h4>THE EXECUTION</h4>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FFC928] block">01 / DYNAMIC ON-GROUND CINEMATOGRAPHY</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Live Stage & Crowd Coverage</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Multi-camera event coverage tracking high-energy performances, crowd reactions, stage lighting, and candid moments across the campus.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FFC928] block">02 / RAPID SOCIAL REEL PRODUCTION</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Vertical Storytelling & Sound Design</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Editing dynamic vertical cutdowns with beat-matched transitions, kinetic typography, and punchy audio design for immediate digital reach.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FFC928] block">03 / CINEMATIC AFTERMOVIES</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Long-Form Narrative Pacing</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Crafting widescreen event films that weave musical pacing, crowd emotion, and ambient audio into lasting visual memories.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FFC928] block">04 / HIGH-CONTRAST NIGHT COLOR SCIENCE</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Concert Lighting & Atmosphere Finishing</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Grading complex live concert lighting, deep shadows, and vibrant stage hues to maintain consistent visual punch.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Visual Sequence — Event Flow Breakdown */}
+                <div className="p-6 sm:p-8 rounded-2xl bg-black text-white border-2 border-[#111111] space-y-4">
+                  <div className="flex items-center justify-between">
+                    <span className="font-mono text-xs uppercase font-bold tracking-widest text-[#FFC928]">
+                      VISUAL SEQUENCE · ON-GROUND EVENT PIPELINE
+                    </span>
+                    <span className="font-mono text-[10px] text-white/40 uppercase">LIVE FESTIVAL WORKFLOW</span>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+                    <div className="p-3 bg-white/5 rounded-xl border border-white/10">
+                      <span className="font-mono text-[10px] text-[#FFC928] block mb-1">PHASE 01</span>
+                      <span className="font-display font-bold text-xs uppercase text-white block">ATMOSPHERE</span>
+                      <span className="text-[11px] text-white/50 block mt-1">Pre-event energy & stage prep</span>
+                    </div>
+                    <div className="p-3 bg-white/5 rounded-xl border border-white/10">
+                      <span className="font-mono text-[10px] text-[#FFC928] block mb-1">PHASE 02</span>
+                      <span className="font-display font-bold text-xs uppercase text-white block">PERFORMANCES</span>
+                      <span className="text-[11px] text-white/50 block mt-1">Live stage multi-angle capture</span>
+                    </div>
+                    <div className="p-3 bg-white/5 rounded-xl border border-white/10">
+                      <span className="font-mono text-[10px] text-[#FFC928] block mb-1">PHASE 03</span>
+                      <span className="font-display font-bold text-xs uppercase text-white block">CROWD ENERGY</span>
+                      <span className="text-[11px] text-white/50 block mt-1">Candid euphoria & reactions</span>
+                    </div>
+                    <div className="p-3 bg-white/5 rounded-xl border border-white/10">
+                      <span className="font-mono text-[10px] text-[#FFC928] block mb-1">PHASE 04</span>
+                      <span className="font-display font-bold text-xs uppercase text-white block">FINAL REELS</span>
+                      <span className="text-[11px] text-white/50 block mt-1">High-impact social cutdowns</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 7. The Creative Approach */}
+                <div className="p-6 sm:p-8 rounded-2xl bg-[#111111] text-white border-2 border-[#111111] space-y-3">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FFC928]">
+                    <Sparkles className="w-4 h-4 text-[#FFC928]" />
+                    <span>THE CREATIVE APPROACH</span>
+                  </div>
+                  <p className="text-sm sm:text-base text-white/85 leading-relaxed">
+                    We approached campus event filmmaking not as passive documentation, but as energy preservation. Event days move fast and cannot be recreated—our team stayed in the middle of the crowd and alongside performers to capture authentic emotion from the inside out.
+                  </p>
+                </div>
+
+                {/* 8. The Outcome */}
+                <div className="p-6 sm:p-8 rounded-2xl bg-[#F5F1E8] border border-[#111111]/15 space-y-3">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#111111]">
+                    <CheckCircle2 className="w-4 h-4 text-[#FFC928]" />
+                    <span className="font-bold">THE OUTCOME</span>
+                  </div>
+                  <p className="text-sm sm:text-base text-[#111111] font-medium leading-relaxed">
+                    A cohesive suite of cinematic event films and high-impact social reels that immortalized the campus festival experience—delivering authentic visual proof of student culture, live music, and electric event energy.
+                  </p>
+                </div>
+
+                {/* 9. Built by TVR & 10. Final CTA */}
+                <div className="pt-6 border-t border-[#111111]/10 flex flex-col sm:flex-row items-center justify-between gap-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-3 h-3 rounded-full bg-[#FFC928]" />
+                    <div>
+                      <span className="font-display font-black text-sm uppercase tracking-wider text-[#111111] block">
+                        BUILT BY TVR
+                      </span>
+                      <span className="font-mono text-[11px] text-[#111111]/50 uppercase tracking-widest">
+                        THE VISUAL ROOM · EVENT FILMMAKING & REEL PRODUCTION
+                      </span>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => {
+                      setSelectedCaseStudy(null);
+                      handleStartProject('Campus Event Filmmaking & Reel Production (Vaayu Style)');
+                    }}
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#FF4A0A] hover:bg-[#111111] text-white font-display text-xs uppercase font-bold tracking-wider px-8 py-4 rounded-full transition-all shadow-md group"
+                  >
+                    <span>START A SIMILAR PROJECT</span>
+                    <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                  </button>
+                </div>
+              </div>
+            ) : selectedCaseStudy.id === 'tvr-playlist' ? (
+              /* THE TVR PLAYLIST DEDICATED CASE STUDY IN STANDARD TVR CASE STUDY LAYOUT */
+              <div className="p-6 sm:p-10 space-y-10">
+                {/* 1. Project Hero & 2. Headline & 3. Project Overview */}
+                <div className="space-y-4">
+                  <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FF4A0A]/10 border border-[#FF4A0A]/20">
+                    <span className="w-2 h-2 rounded-full bg-[#FF4A0A]" />
+                    <span className="font-mono text-xs uppercase font-bold tracking-widest text-[#FF4A0A]">
+                      THE TVR PLAYLIST × TVR
+                    </span>
+                  </div>
+
+                  <h2 className="font-display font-black text-3xl sm:text-5xl uppercase tracking-tight text-[#111111] leading-[0.95]">
+                    THE TVR PLAYLIST.
+                  </h2>
+
+                  <p className="font-mono text-xs text-[#111111]/60 uppercase tracking-wider">
+                    FILM · AI ADS · EVENTS · REELS · EXPERIMENTS
+                  </p>
+
+                  <p className="text-base sm:text-lg text-[#111111]/85 leading-relaxed max-w-3xl pt-2">
+                    Films, campaigns, AI experiments and everything we've brought to life. Explore our curated work across 6 key disciplines below.
+                  </p>
+                </div>
+
+                {/* 6 Curated Vertical Cards Grid (aspect-[9/16]) */}
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between">
+                    <span className="font-mono text-xs font-bold uppercase tracking-wider text-[#FF4A0A]">
+                      CURATED SPECIMENS · TAP ANY VIDEO TO PLAY
+                    </span>
+                    <span className="font-mono text-[11px] text-[#111111]/50 uppercase tracking-wider">
+                      6 VERTICAL DISCIPLINES
+                    </span>
+                  </div>
+                  
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 pt-1">
+                    {TVR_PLAYLIST_ITEMS.map((item) => (
+                      <div
+                        key={item.id}
+                        onClick={() => setSelectedVideo({ src: item.videoSrc, isVertical: item.isVertical, title: item.title, category: item.category })}
+                        onMouseEnter={() => onCursorEnter && onCursorEnter('video', 'PLAY ▶')}
+                        onMouseLeave={onCursorLeave}
+                        className="group relative aspect-[9/16] rounded-2xl overflow-hidden border border-[#111111]/20 hover:border-[#FF4A0A] transition-all duration-300 cursor-pointer bg-black flex flex-col justify-between p-3 sm:p-3.5 shadow-md hover:shadow-xl hover:-translate-y-1"
+                      >
+                        {/* Background Poster */}
+                        <img 
+                          src={item.poster} 
+                          alt={item.category} 
+                          className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-90 group-hover:scale-105 transition-all duration-500"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/60 group-hover:via-black/20 transition-all duration-300" />
+
+                        {/* Top Category Badge */}
+                        <div className="relative z-10">
+                          <span className="font-mono text-[9px] uppercase font-bold tracking-wider px-2 py-0.5 bg-black/85 backdrop-blur rounded-full text-white border border-white/20 inline-block group-hover:border-[#FF4A0A] group-hover:text-[#FF4A0A] transition-colors">
+                            {item.category}
+                          </span>
+                        </div>
+
+                        {/* Center Play Button */}
+                        <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
+                          <div className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center text-white group-hover:bg-[#FF4A0A] group-hover:text-white group-hover:scale-110 transition-all shadow-lg">
+                            <Play className="w-4 h-4 fill-current ml-0.5" />
+                          </div>
+                        </div>
+
+                        {/* Bottom Title & Subtitle */}
+                        <div className="relative z-10 space-y-0.5">
+                          <h4 className="font-display font-bold text-xs text-white uppercase leading-snug group-hover:text-[#FF4A0A] transition-colors line-clamp-2">
+                            {item.title}
+                          </h4>
+                          {item.subtitle ? (
+                            <p className="font-mono text-[8px] text-white/60 uppercase tracking-wider line-clamp-1">
+                              {item.subtitle}
+                            </p>
+                          ) : null}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* 4. The Brief & 5. The Idea */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-6 border-t border-[#111111]/10">
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4A0A]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A]" />
+                      <h4>THE BRIEF</h4>
+                    </div>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">
+                      TVR required a centralized, living showcase to house our diverse body of work—moving past single-campaign presentations into an expansive playlist capturing commercial filmmaking, AI video experiments, digital avatar setups, campus festivals, and emotional storytelling.
+                    </p>
+                  </div>
+
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4A0A]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A]" />
+                      <h4>THE IDEA</h4>
+                    </div>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">
+                      Structure the anthology into six sharply defined categories in vertical 9:16 format—enabling brands and partners to immediately experience our tone, execution speed, aesthetic rigor, and technical mastery across every contemporary media format.
+                    </p>
+                  </div>
+                </div>
+
+                {/* 6. The Disciplines */}
+                <div className="space-y-4 pt-6 border-t border-[#111111]/10">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4A0A]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A]" />
+                    <h4>THE DISCIPLINES</h4>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4A0A] block">01 / HEAD TALKING</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Founder Communication</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Short-form thought leadership and authoritative founder reels engineered for distribution.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4A0A] block">02 / AI AVATAR</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Digital Persona Pipeline</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Neural voice cloning and hyper-accurate digital avatar modeling for scalable presence.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4A0A] block">03 / AI ADS</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Generative Commercials</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Worldbuilding, surreal botanical macro-textures, and high-impact generative product films.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4A0A] block">04 / EVENTS</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Campus & Festivals</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Multi-angle event cinematography, synchronized rhythms, and high-energy aftermovies.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4A0A] block">05 / COMMERCIAL FILM</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Brand Storytelling</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Authentic partnership documentaries, tactile craftsmanship, and human-led cinema.
+                      </p>
+                    </div>
+
+                    <div className="p-5 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-2">
+                      <span className="font-mono text-xs font-bold text-[#FF4A0A] block">06 / WEDDING FILM</span>
+                      <h5 className="font-display font-bold text-sm uppercase text-[#111111]">Heirloom Cinema</h5>
+                      <p className="text-xs text-[#111111]/75 leading-relaxed">
+                        Timeless heritage aesthetics, generational warmth, and deeply emotional wedding films.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 7. The Outcome */}
+                <div className="p-6 sm:p-8 rounded-2xl bg-[#F5F1E8] border border-[#111111]/10 space-y-3">
+                  <div className="flex items-center gap-2 font-mono text-xs uppercase font-bold tracking-widest text-[#FF4A0A]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#FF4A0A]" />
+                    <h4>THE OUTCOME</h4>
+                  </div>
+                  <p className="text-base sm:text-lg font-bold text-[#111111] leading-relaxed">
+                    A versatile, multi-format media library giving clients instant proof of TVR's visual range, speed, and creative depth—all in one place.
+                  </p>
+                </div>
+
+                {/* 8. Built by TVR & Final CTA */}
+                <div className="pt-6 border-t border-[#111111]/10 flex flex-col sm:flex-row items-center justify-between gap-6">
+                  <div className="flex items-center gap-3">
+                    <div className="w-3 h-3 rounded-full bg-[#C8FF00]" />
+                    <div>
+                      <span className="font-display font-black text-sm uppercase tracking-wider text-[#111111] block">
+                        BUILT BY TVR
+                      </span>
+                      <span className="font-mono text-[11px] text-[#111111]/50 uppercase tracking-widest">
+                        THE VISUAL ROOM · CURATED PRODUCTION ARCHIVE
+                      </span>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => {
+                      setSelectedCaseStudy(null);
+                      handleStartProject('General Studio Inquiry (TVR Playlist)');
+                    }}
+                    className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#FF4A0A] hover:bg-[#111111] text-white font-display text-xs uppercase font-bold tracking-wider px-8 py-4 rounded-full transition-all shadow-md group"
+                  >
+                    <span>START A SIMILAR PROJECT</span>
+                    <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+                  </button>
+                </div>
+              </div>
+            ) : (
+              /* DEFAULT CASE STUDY MODAL FOR OTHER PROJECTS */
+              <div className="p-6 sm:p-10 space-y-8">
+                <div>
+                  <span className="font-mono text-xs text-[#111111]/60 uppercase tracking-wider block mb-1">
+                    {selectedCaseStudy.servicesTag}
+                  </span>
+                  <h2 className="font-display font-black text-3xl sm:text-5xl uppercase tracking-tight text-[#111111]">
+                    {selectedCaseStudy.title}
+                  </h2>
+                </div>
+
+                <div className="rounded-2xl overflow-hidden bg-black border border-[#111111]">
+                  {selectedCaseStudy.videoSrc || selectedCaseStudy.mediaType === 'video' ? (
+                    <video 
+                      src={selectedCaseStudy.videoSrc || selectedCaseStudy.mediaSrc} 
+                      poster={selectedCaseStudy.poster}
+                      controls 
+                      autoPlay 
+                      className="w-full aspect-video object-cover"
+                    />
+                  ) : (
+                    <img 
+                      src={selectedCaseStudy.mediaSrc} 
+                      alt={selectedCaseStudy.title} 
+                      className="w-full aspect-[16/10] object-cover"
+                    />
+                  )}
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="font-mono text-xs uppercase font-bold tracking-wider text-[#FF4A0A] mb-2">THE BRIEF</h4>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">{selectedCaseStudy.brief}</p>
+                  </div>
+                  <div>
+                    <h4 className="font-mono text-xs uppercase font-bold tracking-wider text-[#FF4A0A] mb-2">THE IDEA</h4>
+                    <p className="text-sm text-[#111111]/80 leading-relaxed">{selectedCaseStudy.idea}</p>
+                  </div>
+                </div>
+
+                <div className="p-6 bg-[#F5F1E8] rounded-xl border border-[#111111]/10">
+                  <h4 className="font-mono text-xs uppercase font-bold tracking-wider text-[#111111] mb-2">THE OUTCOME</h4>
+                  <p className="text-sm font-semibold text-[#111111]">{selectedCaseStudy.outcome}</p>
+                </div>
+
+                <div className="flex items-center justify-between pt-4 border-t border-[#111111]/10">
+                  <button
+                    onClick={() => {
+                      setSelectedCaseStudy(null);
+                      handleStartProject(`Inquiry about ${selectedCaseStudy.client} style project`);
+                    }}
+                    className="bg-[#111111] text-white font-display text-xs uppercase font-bold tracking-wider px-6 py-3 rounded-full hover:bg-[#FF4A0A] transition-colors"
+                  >
+                    START SIMILAR PROJECT ↗
+                  </button>
+                </div>
+              </div>
+            )}
 
           </div>
         </div>
@@ -3568,20 +4666,45 @@ export default function App() {
       {/* 11. VIDEO LIGHTBOX MODAL                                                  */}
       {/* ========================================================================= */}
       {selectedVideo && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/95 backdrop-blur-md">
-          <div className="max-w-5xl w-full relative">
+        <div 
+          style={{ zIndex: 99999 }}
+          onClick={() => setSelectedVideo(null)}
+          className="fixed inset-0 flex items-center justify-center p-4 sm:p-6 bg-black/95 backdrop-blur-md animate-fadeIn cursor-pointer"
+        >
+          {/* Top Bar Floating Controls */}
+          <div 
+            className="fixed top-4 left-4 right-4 sm:top-6 sm:left-8 sm:right-8 flex items-center justify-between text-white font-mono text-xs uppercase tracking-wider pointer-events-auto"
+            style={{ zIndex: 100001 }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {selectedVideo.category ? (
+              <span className="text-[#C8FF00] font-bold bg-black/80 backdrop-blur px-3 py-1.5 rounded-full border border-white/20 shadow-lg">
+                {selectedVideo.category} {selectedVideo.title && `· ${selectedVideo.title}`}
+              </span>
+            ) : <span />}
             <button 
-              onClick={() => setSelectedVideo(null)}
-              className="absolute -top-12 right-0 text-white hover:text-[#FF4A0A] flex items-center gap-2 font-mono text-xs uppercase tracking-wider"
+              onClick={(e) => {
+                e.stopPropagation();
+                setSelectedVideo(null);
+              }}
+              className="hover:text-white hover:bg-[#FF4A0A] bg-black/85 backdrop-blur text-white flex items-center gap-2 px-4 py-2 rounded-full border border-white/20 transition-all cursor-pointer font-bold shadow-xl ml-auto"
+              aria-label="Close video"
             >
               <span>CLOSE</span>
-              <X className="w-5 h-5" />
+              <X className="w-4 h-4" />
             </button>
+          </div>
+
+          {/* Video Container Box */}
+          <div 
+            onClick={(e) => e.stopPropagation()}
+            className={`${selectedVideo.isVertical ? 'max-w-sm w-full max-h-[85vh]' : 'max-w-5xl w-full max-h-[85vh]'} relative mt-10 sm:mt-12 cursor-default`}
+          >
             <video 
               src={selectedVideo.src} 
               controls 
               autoPlay 
-              className="w-full rounded-2xl aspect-video bg-black shadow-2xl"
+              className={`w-full rounded-2xl ${selectedVideo.isVertical ? 'aspect-[9/16] max-h-[80vh]' : 'aspect-video max-h-[80vh]'} bg-black shadow-2xl object-contain border border-white/20`}
             />
           </div>
         </div>

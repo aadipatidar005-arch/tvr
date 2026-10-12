@@ -23,6 +23,29 @@
   box-sizing: border-box;
 }
 
+button {
+  background: transparent;
+  border: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+::selection {
+  background-color: #FF4A0A;
+  color: #FFFFFF;
+}
+
+::-moz-selection {
+  background-color: #FF4A0A;
+  color: #FFFFFF;
+}
+
 html {
   scroll-behavior: smooth;
   background-color: var(--bg-cream);
