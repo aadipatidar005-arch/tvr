@@ -227,6 +227,9 @@ body {
 .items-center { align-items: center; }
 .items-start { align-items: flex-start; }
 .items-end { align-items: flex-end; }
+.items-baseline { align-items: baseline; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
 .justify-between { justify-content: space-between; }
 .justify-center { justify-content: center; }
 .justify-end { justify-content: flex-end; }
@@ -258,6 +261,13 @@ body {
 .w-12 { width: 3rem; }
 .h-12 { height: 3rem; }
 .w-16 { width: 4rem; }
+.h-16 { height: 4rem; }
+.w-20 { width: 5rem; }
+.h-20 { height: 5rem; }
+.w-24 { width: 6rem; }
+.h-24 { height: 6rem; }
+.w-28 { width: 7rem; }
+.h-28 { height: 7rem; }
 .h-6 { height: 1.5rem; }
 .w-\[1px\] { width: 1px; }
 .w-\[58\%\] { width: 58%; }
@@ -489,10 +499,17 @@ body {
 .hover\:bg-\[\#C8FF00\]:hover { background-color: #C8FF00; }
 .hover\:bg-\[\#FF4F8B\]:hover { background-color: #FF4F8B; }
 .hover\:bg-\[\#111111\]:hover { background-color: #111111; }
+.hover\:bg-white:hover { background-color: #ffffff; }
+.hover\:text-white:hover { color: #ffffff !important; }
+.hover\:text-\[\#111111\]:hover { color: #111111; }
 .hover\:text-\[\#FF4A0A\]:hover { color: #FF4A0A; }
 .hover\:text-\[\#2447FF\]:hover { color: #2447FF; }
 .hover\:text-\[\#C8FF00\]:hover { color: #C8FF00; }
 .hover\:text-\[\#FF4F8B\]:hover { color: #FF4F8B; }
+.focus\:bg-white:focus { background-color: #ffffff; }
+.focus\:text-\[\#111111\]:focus { color: #111111; }
+.active\:bg-white:active { background-color: #ffffff; }
+.active\:text-\[\#111111\]:active { color: #111111; }
 
 /* Mobile First Text Sizes */
 .text-\[9px\] { font-size: 9px; line-height: 12px; }
@@ -602,6 +619,13 @@ body {
   .sm\:w-auto { width: auto; }
   .sm\:flex-row { flex-direction: row; }
   .sm\:items-center { align-items: center; }
+  .sm\:items-end { align-items: flex-end; }
+  .sm\:items-baseline { align-items: baseline; }
+  .sm\:text-right { text-align: right; }
+  .sm\:text-left { text-align: left; }
+  .sm\:leading-normal { line-height: 1.5; }
+  .sm\:leading-snug { line-height: 1.35; }
+  .sm\:leading-relaxed { line-height: 1.65; }
   .sm\:grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
   .sm\:grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .sm\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }

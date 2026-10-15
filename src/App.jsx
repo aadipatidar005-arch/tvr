@@ -1198,9 +1198,9 @@ function FounderPresenceEngineExperience({ onClose, onStartProject, onCursorEnte
 
                 <button
                   onClick={() => onStartProject('Founder AI Presence Engine')}
-                  onMouseEnter={() => onCursorEnter('cta', 'START')}
+                  onMouseEnter={() => onCursorEnter('hover', 'START')}
                   onMouseLeave={onCursorLeave}
-                  className="bg-white border border-[#111111] text-[#111111] hover:bg-[#111111] hover:text-white font-display text-xs uppercase font-bold tracking-wider px-8 py-4 rounded-full flex items-center gap-2 transition-all"
+                  className="bg-white border border-[#111111] text-[#111111] hover:bg-white hover:text-[#111111] hover:border-[#111111] focus:bg-white focus:text-[#111111] active:bg-white active:text-[#111111] font-display text-xs uppercase font-bold tracking-wider px-8 py-4 rounded-full flex items-center gap-2 transition-all transform hover:-translate-y-0.5 shadow-sm hover:shadow-md"
                 >
                   <span>START THE SYSTEM ↗</span>
                 </button>
@@ -1483,7 +1483,7 @@ function FounderPresenceEngineExperience({ onClose, onStartProject, onCursorEnte
               <div className="p-6 rounded-2xl bg-[#F5F1E8] border border-[#111111]/15 text-center">
                 <span className="font-mono text-xs text-[#FF4F8B] font-bold block mb-2">1. THE SOURCE</span>
                 <div className="aspect-[4/5] rounded-xl overflow-hidden mb-4 bg-black border border-[#111111]/20">
-                  <img src="/photography.webp" alt="Founder Source" className="w-full h-full object-cover" />
+                  <img src="/the-source-card-image.png" alt="Founder Source" className="w-full h-full object-cover" />
                 </div>
                 <h4 className="font-display font-bold text-sm uppercase text-[#111111]">1 Master Ingest</h4>
                 <p className="text-xs text-[#111111]/60 mt-1">45 min live conversation</p>
@@ -1491,9 +1491,8 @@ function FounderPresenceEngineExperience({ onClose, onStartProject, onCursorEnte
 
               <div className="p-6 rounded-2xl bg-[#F5F1E8] border border-[#111111]/15 text-center">
                 <span className="font-mono text-xs text-[#749A00] font-bold block mb-2">2. THE CORE TWIN</span>
-                <div className="aspect-[4/5] rounded-xl overflow-hidden mb-4 bg-black border border-[#111111]/20 relative">
-                  <img src="/photography.webp" alt="Digital Twin" className="w-full h-full object-cover filter contrast-125" />
-                  <div className="absolute inset-0 bg-[#FF4F8B]/15 mix-blend-screen" />
+                <div className="aspect-[4/5] rounded-xl overflow-hidden mb-4 bg-black border border-[#111111]/20">
+                  <img src="/the-core-twin-card-image.png" alt="Digital Twin" className="w-full h-full object-cover" />
                 </div>
                 <h4 className="font-display font-bold text-sm uppercase text-[#111111]">Voice & Likeness</h4>
                 <p className="text-xs text-[#111111]/60 mt-1">Calibrated clone baseline</p>
@@ -1501,11 +1500,8 @@ function FounderPresenceEngineExperience({ onClose, onStartProject, onCursorEnte
 
               <div className="p-6 rounded-2xl bg-[#F5F1E8] border border-[#111111]/15 text-center">
                 <span className="font-mono text-xs text-[#2447FF] font-bold block mb-2">4. FORMAT ADAPTATIONS</span>
-                <div className="aspect-[4/5] rounded-xl overflow-hidden mb-4 bg-white border border-[#111111]/20 grid grid-cols-2 gap-1 p-1">
-                  <div className="bg-[#2447FF]/10 text-[#2447FF] rounded flex items-center justify-center font-mono text-[9px] font-bold">REEL</div>
-                  <div className="bg-[#FF4F8B]/10 text-[#FF4F8B] rounded flex items-center justify-center font-mono text-[9px] font-bold">ESSAY</div>
-                  <div className="bg-[#749A00]/10 text-[#749A00] rounded flex items-center justify-center font-mono text-[9px] font-bold">STORY</div>
-                  <div className="bg-[#FF4A0A]/10 text-[#FF4A0A] rounded flex items-center justify-center font-mono text-[9px] font-bold">QUOTE</div>
+                <div className="aspect-[4/5] rounded-xl overflow-hidden mb-4 bg-white border border-[#111111]/20">
+                  <img src="/format-adaptations-card-image.png" alt="Format Adaptations" className="w-full h-full object-cover" />
                 </div>
                 <h4 className="font-display font-bold text-sm uppercase text-[#111111]">Modular Templates</h4>
                 <p className="text-xs text-[#111111]/60 mt-1">Art-directed layouts</p>
@@ -1513,10 +1509,8 @@ function FounderPresenceEngineExperience({ onClose, onStartProject, onCursorEnte
 
               <div className="p-6 rounded-2xl bg-[#FF4F8B]/10 border border-[#FF4F8B]/40 text-center">
                 <span className="font-mono text-xs text-[#FF4A0A] font-bold block mb-2">MANY. CONTINUOUS SCALE</span>
-                <div className="aspect-[4/5] rounded-xl overflow-hidden mb-4 bg-white border border-[#FF4F8B]/30 flex flex-col items-center justify-center p-4">
-                  <Repeat className="w-8 h-8 text-[#FF4F8B] mb-2 animate-spin" style={{ animationDuration: '8s' }} />
-                  <span className="font-display font-black text-2xl text-[#111111]">30+</span>
-                  <span className="font-mono text-[10px] text-[#111111]/70 uppercase font-bold">Pieces Monthly</span>
+                <div className="aspect-[4/5] rounded-xl overflow-hidden mb-4 bg-white border border-[#FF4F8B]/30">
+                  <img src="/omnipresent-brand-card-image.png" alt="Omnipresent Brand" className="w-full h-full object-cover" />
                 </div>
                 <h4 className="font-display font-bold text-sm uppercase text-[#111111]">Omnipresent Brand</h4>
                 <p className="text-xs text-[#111111]/60 mt-1">Zero founder camera time</p>
@@ -3022,12 +3016,12 @@ export default function App() {
                 </div>
 
                 {/* Line 3 */}
-                <div className="flex flex-col sm:flex-row items-start sm:items-baseline justify-between gap-4">
+                <div className="flex flex-col sm:flex-row items-start sm:items-end justify-between gap-6 pt-2 pb-1">
                   <span className="font-display font-black text-6xl sm:text-8xl lg:text-9xl uppercase tracking-tighter text-[#111111] leading-[0.88] select-none">
                     VISIBLE
                   </span>
 
-                  <p className="text-base sm:text-xl text-[#111111]/80 font-medium max-w-md leading-relaxed sm:text-right">
+                  <p className="text-base sm:text-lg lg:text-xl text-[#111111]/80 font-medium max-w-xl leading-normal sm:leading-relaxed tracking-normal">
                     Your expertise deserves to be seen. TVR transforms your voice, ideas and vision into a distinctive personal brand built to grow your influence without taking over your time.
                   </p>
                 </div>
